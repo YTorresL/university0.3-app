@@ -157,9 +157,9 @@ export default function Home() {
                     comunidad latina de mas rapido crecimiento en Rusia con
                     ZDOROVO
                   </p>
-                  <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
+                  <p className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
                     ¿Quieres ser el proximo en Rusia?
-                  </button>
+                  </p>
                 </div>
               </OpacityAnimation>
             </div>
