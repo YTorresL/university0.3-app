@@ -1,6 +1,4 @@
 "use client"
-import Image from "next/image"
-import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Parrafo from "@/components/Paragraph/page"
@@ -32,60 +30,6 @@ const proceso = [
   },
 ]
 
-const programas = [
-  {
-    index: 0,
-    title: "Carreras",
-    description:
-      "La Universidad Estatal de Moscú es una universidad pública de investigación ubicada en Moscú, Rusia. Fundada en 1755 por Mijaíl Lomonósov, es la universidad más antigua de Rusia y una de las más prestigiosas del mundo.",
-    imagen: "/moscu.jpg",
-  },
-  {
-    index: 1,
-    title: "Maestrías",
-    description:
-      "La Universidad Estatal de Kaerov es una universidad pública de investigación ubicada en Kaerov, Rusia. Fundada en 1724 por Pedro el Grande, es la universidad más antigua de Rusia y una de las más prestigiosas del mundo.",
-    imagen: "/maestria.jpg",
-  },
-  {
-    index: 2,
-    title: "Curso de ruso",
-    description:
-      "La Universidad Estatal de Kaerov es una universidad pública de investigación ubicada en Kaerov, Rusia. Fundada en 1724 por Pedro el Grande, es la universidad más antigua de Rusia y una de las más prestigiosas del mundo.",
-    imagen: "/ruso.jpg",
-  },
-]
-
-const preguntas = [
-  {
-    title: "¿Cuáles son los requisitos para estudiar en Rusia como extranjero?",
-    description:
-      "Los requisitos pueden variar según la universidad y el programa, pero generalmente necesitarás presentar una solicitud de admisión, un pasaporte válido, certificados de estudios anteriores, un formulario de solicitud de visa, un seguro médico y pruebas de dominio del idioma ruso (a menos que el programa se imparta en inglés).",
-  },
-  {
-    title:
-      "¿Qué opciones de financiamiento están disponibles para estudiar en Rusia?",
-    description:
-      "Hay varias opciones de financiamiento disponibles, como becas gubernamentales, becas universitarias, programas de intercambio, financiamiento personal o préstamos educativos. Puedes investigar las becas ofrecidas por el gobierno ruso, tu propio gobierno, organizaciones internacionales y fundaciones educativas.",
-  },
-  {
-    title: "¿Es necesario hablar ruso para estudiar en Rusia?",
-    description:
-      "Depende del programa y la universidad. Algunos programas se imparten completamente en inglés, especialmente a nivel de posgrado, mientras que otros requieren un nivel mínimo de competencia en ruso. Sin embargo, aprender ruso básico puede ser beneficioso para la vida cotidiana y la interacción con los lugareños.",
-  },
-  {
-    title: "¿Cómo es la vida estudiantil en Rusia?",
-    description:
-      "La vida estudiantil en Rusia es vibrante y diversa. Las universidades ofrecen una amplia gama de actividades extracurriculares, clubes estudiantiles y eventos culturales. Además, hay muchas oportunidades para explorar la cultura rusa, como visitar museos, asistir a festivales y viajar a diferentes ciudades del país durante las vacaciones.",
-  },
-  {
-    title:
-      "¿Cuál es el costo de vida en Rusia para los estudiantes extranjeros?",
-    description:
-      "El costo de vida en Rusia puede variar según la ciudad y el estilo de vida individual. En general, las ciudades más grandes como Moscú y San Petersburgo tienden a ser más costosas que las ciudades más pequeñas. Sin embargo, en comparación con otros destinos de estudio en Europa o América del Norte, Rusia puede ser más asequible en términos de alojamiento, transporte y alimentos.",
-  },
-]
-
 export default function Home() {
   const YoutubeEmbed = ({ embedId }) => (
     <div className="video-responsive">
@@ -100,34 +44,6 @@ export default function Home() {
     </div>
   )
 
-  const settings3 = {
-    dots: true,
-    infinite: true,
-    speed: 3000,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-    ],
-  }
   return (
     <>
       <main>
