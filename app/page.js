@@ -185,42 +185,8 @@ export default function Home() {
         </div>
 
         <div>
-          <OpacityAnimation>
-            <div className="w-[85%] mx-auto py-16">
-              <Titulo styles="text-[#FFBD59]">Universidades y programas</Titulo>
-              <Slider {...settings3}>
-                {programas.map((item, index) => (
-                  <div key={index} className="px-4 py-6 relative mt-4">
-                    <div className="overflow-hidden rounded-lg transform hover:scale-105 transition duration-500 ease-in-out hover:shadow-lg">
-                      <div className="bg-[#001959]/20 absolute h-full w-full">
-                        <div className="flex items-center justify-center h-full">
-                          <h1 className="text-xl font-bold lg:text-4xl sm:text-2xl md:text-3xl text-white">
-                            {item.title}
-                          </h1>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="w-full h-96">
-                          <Image
-                            src={item.imagen}
-                            alt={item.description}
-                            width={1000}
-                            height={1000}
-                            className="object-cover w-full h-full"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </Slider>
-            </div>
-          </OpacityAnimation>
-        </div>
-        <div>
           <div className="bg-white py-4">
             <div className="w-[85%] sm:w-[60%] mx-auto">
-              {" "}
               <div className="sm:w-[80%]">
                 <Titulo styles="text-[#FFBD59]">
                   Paso a paso desde que estas en tu país hasta que llegas a
@@ -283,49 +249,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <div className="w-[85%] mx-auto py-16">
-            <div className="flex flex-col items-center justify-center md:flex-row">
-              <ImageWidth
-                src="/idioma.jpg"
-                alt="Tienes alguna duda, te invitamos a revisar las preguntas más frecuentes."
-              />
-              <div className="w-full md:w-1/2 md:ml-10 lg shadow-gray-300:mrl-20">
-                <Titulo styles="text-[#FFBD59]">FAQ</Titulo>
-
-                <Parrafo styles="mt-4 text-xl">
-                  Tienes alguna duda, te invitamos a revisar las preguntas más
-                  frecuentes.
-                </Parrafo>
-                {preguntas.map((item, index) => (
-                  <OpacityAnimation key={index}>
-                    <details className="mt-1 text-xl">
-                      <summary className="flex leading-6 text-[#FFBD59] border-b border-white p-2 font-semibold">
-                        {item.title}
-                      </summary>
-                      <div className="m-3">
-                        <Parrafo>{item.description}</Parrafo>
-                      </div>
-                    </details>
-                  </OpacityAnimation>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
       </main>
 
       <footer className="lg:p-20 text-white">
         <div className="mx-auto w-[95%] md:w-[85%] p-4 pt-6 md:pt-20 lg:pb-0">
           <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 gap-3 sm:gap-8">
-            <Image
-              src="/logoW.png"
-              alt="ZDOROVO"
-              width={800}
-              height={800}
-              className="w-56 md:w-72 lg:w-80 mb-6"
-            />
-
+            <div></div>
             <ul className="text-xl">
               <li className="mb-2">
                 <p>
