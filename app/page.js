@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image"
-import Line from "@/components/Line/page"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -293,7 +292,7 @@ export default function Home() {
               />
               <div className="w-full md:w-1/2 md:ml-10 lg shadow-gray-300:mrl-20">
                 <Titulo styles="text-[#FFBD59]">FAQ</Titulo>
-        
+
                 <Parrafo styles="mt-4 text-xl">
                   Tienes alguna duda, te invitamos a revisar las preguntas más
                   frecuentes.
@@ -334,15 +333,11 @@ export default function Home() {
                 </p>
               </li>
               <li className="mb-2">
-                <h2 className="mb-2 font-bold uppercase">
-                  Numero de contacto
-                </h2>
+                <h2 className="mb-2 font-bold uppercase">Numero de contacto</h2>
                 <p>+495 95220935</p>
               </li>
               <li className="mb-2">
-                <h2 className="mb-2 font-bold uppercase">
-                  Correo electronico
-                </h2>
+                <h2 className="mb-2 font-bold uppercase">Correo electronico</h2>
                 <p>informacionzdorovo@gmail.com</p>
               </li>
             </ul>
