@@ -188,15 +188,14 @@ export default function Home() {
         <div>
           <OpacityAnimation>
             <div className="w-[85%] mx-auto py-16">
-              <Titulo>Universidades y programas</Titulo>
-              <Line />
+              <Titulo styles="text-[#FFBD59]">Universidades y programas</Titulo>
               <Slider {...settings3}>
                 {programas.map((item, index) => (
-                  <div key={index} className="px-4 py-6 relative">
+                  <div key={index} className="px-4 py-6 relative mt-4">
                     <div className="overflow-hidden rounded-lg transform hover:scale-105 transition duration-500 ease-in-out hover:shadow-lg">
-                      <div className="bg-[#001959]/30 absolute h-full w-full">
+                      <div className="bg-[#001959]/20 absolute h-full w-full">
                         <div className="flex items-center justify-center h-full">
-                          <h1 className="text-xl font-bold text-white lg:text-4xl sm:text-2xl md:text-3xl">
+                          <h1 className="text-xl font-bold lg:text-4xl sm:text-2xl md:text-3xl text-white">
                             {item.title}
                           </h1>
                         </div>
@@ -293,16 +292,16 @@ export default function Home() {
                 alt="Tienes alguna duda, te invitamos a revisar las preguntas más frecuentes."
               />
               <div className="w-full md:w-1/2 md:ml-10 lg shadow-gray-300:mrl-20">
-                <Titulo>FAQ</Titulo>
-                <Line />
-                <Parrafo>
+                <Titulo styles="text-[#FFBD59]">FAQ</Titulo>
+        
+                <Parrafo styles="mt-4 text-xl">
                   Tienes alguna duda, te invitamos a revisar las preguntas más
                   frecuentes.
                 </Parrafo>
                 {preguntas.map((item, index) => (
                   <OpacityAnimation key={index}>
-                    <details className="mt-1">
-                      <summary className="flex leading-6 text-[#001959] border-b border-[#001959] p-2 font-semibold">
+                    <details className="mt-1 text-xl">
+                      <summary className="flex leading-6 text-[#FFBD59] border-b border-white p-2 font-semibold">
                         {item.title}
                       </summary>
                       <div className="m-3">
@@ -328,20 +327,20 @@ export default function Home() {
               className="w-56 md:w-72 lg:w-80 mb-6"
             />
 
-            <ul className="text-lg">
+            <ul className="text-xl">
               <li className="mb-2">
                 <p>
                   Contáctanos para saber mas información sobre los programas.
                 </p>
               </li>
               <li className="mb-2">
-                <h2 className="mb-2 text-lg font-bold uppercase">
+                <h2 className="mb-2 font-bold uppercase">
                   Numero de contacto
                 </h2>
                 <p>+495 95220935</p>
               </li>
               <li className="mb-2">
-                <h2 className="mb-2 text-lg font-bold uppercase">
+                <h2 className="mb-2 font-bold uppercase">
                   Correo electronico
                 </h2>
                 <p>informacionzdorovo@gmail.com</p>
