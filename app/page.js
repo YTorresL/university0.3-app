@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <OpacityAnimation>
           <div className="w-[85%] md:w-[50%] mx-auto">
-            <YoutubeEmbed embedId="OlI_glpNGUY " />
+            <YoutubeEmbed embedId="OlI_glpNGUY" />
           </div>
         </OpacityAnimation>
         <div>
@@ -141,14 +141,11 @@ export default function Home() {
         <div>
           <div className="w-[85%] mx-auto py-10">
             <div className="flex flex-col items-center justify-center md:flex-row">
-              <div className="w-full md:w-1/2 md:mr-10 lg:mr-20">
-                <ImageWidth
-                  src="/estudiante.jpg"
-                  alt="Ellos ya están viviendo la experiencia de pertenecer en la comunidad latina de mas rapido crecimiento en Rusia con ZDOROVO"
-                />
-              </div>
+              <div className="w-full mx-auto">
+            <YoutubeEmbed embedId="3jFIyaN04g4" />
+          </div>
               <OpacityAnimation>
-                <div className="my-6">
+                <div className="md:ml-6 my-6">
                   <Titulo styles="text-[#FFBD59] uppercase">
                     Comunidad ZDOROVO
                   </Titulo>
