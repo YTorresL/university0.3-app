@@ -38,7 +38,19 @@ export default function Home() {
         src={`https://www.youtube.com/embed/${embedId}`}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        title="Embedded youtube"
+        title="Inicio"
+      />
+    </div>
+  )
+
+  const YoutubeEmbedVertical = ({ embedId }) => (
+    <div>
+      <iframe
+        width="280"
+        height="400"
+        src={`https://www.youtube.com/embed/${embedId}`}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+        allowFullScreen
       />
     </div>
   )
@@ -140,8 +152,8 @@ export default function Home() {
         <div>
           <div className="w-[85%] mx-auto py-10">
             <div className="flex flex-col items-center justify-center md:flex-row">
-              <div className="w-full mx-auto">
-                <YoutubeEmbed embedId="3jFIyaN04g4" />
+              <div className="lg:mx-[6%]">
+                <YoutubeEmbedVertical embedId="3jFIyaN04g4" />
               </div>
               <OpacityAnimation>
                 <div className="md:ml-6 my-6">
@@ -163,26 +175,22 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="lg:p-20 text-white">
-        <div className="mx-auto w-[95%] md:w-[85%] p-4 pt-6 md:pt-20 lg:pb-0">
-          <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 gap-3 sm:gap-8">
-            <div></div>
-            <ul className="text-xl">
-              <li className="mb-2">
-                <p>
-                  Contáctanos para saber mas información sobre los programas.
-                </p>
-              </li>
-              <li className="mb-2">
-                <h2 className="mb-2 font-bold uppercase">Numero de contacto</h2>
-                <p>+495 95220935</p>
-              </li>
-              <li className="mb-2">
-                <h2 className="mb-2 font-bold uppercase">Correo electronico</h2>
-                <p>informacionzdorovo@gmail.com</p>
-              </li>
-            </ul>
-          </div>
+      <footer className="mx-auto w-[85%] md:w-[85%] mb-20 md:pt-20 lg:pb-0 text-white">
+        <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 gap-3 sm:gap-8">
+          <div></div>
+          <ul className="text-xl">
+            <li className="mb-2">
+              <p>Contáctanos para saber mas información sobre los programas.</p>
+            </li>
+            <li className="mb-2">
+              <h2 className="mb-2 font-bold uppercase">Numero de contacto</h2>
+              <p>+495 95220935</p>
+            </li>
+            <li className="mb-2">
+              <h2 className="mb-2 font-bold uppercase">Correo electronico</h2>
+              <p className="break-all">informacionzdorovo@gmail.com</p>
+            </li>
+          </ul>
         </div>
       </footer>
     </>
