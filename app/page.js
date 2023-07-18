@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Parrafo from "@/components/Paragraph/page"
 import Titulo from "@/components/Title/page"
-import ImageWidth from "@/components/ImageWidth/page"
 import OpacityAnimation from "@/components/OpacityAnimation/page"
 import { Arrow } from "@/components/Icons/page"
 
@@ -142,8 +141,8 @@ export default function Home() {
           <div className="w-[85%] mx-auto py-10">
             <div className="flex flex-col items-center justify-center md:flex-row">
               <div className="w-full mx-auto">
-            <YoutubeEmbed embedId="3jFIyaN04g4" />
-          </div>
+                <YoutubeEmbed embedId="3jFIyaN04g4" />
+              </div>
               <OpacityAnimation>
                 <div className="md:ml-6 my-6">
                   <Titulo styles="text-[#FFBD59] uppercase">
