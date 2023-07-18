@@ -60,10 +60,10 @@ export default function Home() {
       <main>
         <div className="w-[85%] h-[35rem] mx-auto">
           <div className="flex flex-col justify-center h-full lg:w-[80%] md:w-[70%] w-[90%] ml-[7%]">
-            <h1 className="font-bold text-white text-2xl lg:text-6xl sm:text-4xl my-0">
+            <h1 className="font-bold text-white text-2xl lg:text-6xl sm:text-4xl my-0 animate-fade-right animate-ease-in-out">
               DILE <span className="text-[#FFBD59]">HOLA A RUSIA</span>
             </h1>
-            <Parrafo styles="sm:text-4xl text-xl">
+            <Parrafo styles="sm:text-4xl text-xl animate-fade-right animate-ease-in-out">
               Sin importar si tienes un conocimiento mínimo del idioma y obtén
               tu <span className="text-[#FFBD59]">visado</span> en{" "}
               <span className="text-[#FFBD59]">menos de 90 días</span>
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="mb-8">
-            <Arrow className="w-16 h-16" fill="#fff" />
+            <Arrow className="w-16 h-16 animate-bounce" fill="#fff" />
           </div>
         </div>
         <OpacityAnimation>
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="bg-white py-4">
             <div className="w-[85%] sm:w-[60%] mx-auto">
               <div className="sm:w-[80%]">
-                <Titulo styles="text-[#FFBD59]">
+                <Titulo styles="text-[#FFBD59] animate-fade-right animate-ease-in-out">
                   Paso a paso desde que estas en tu país hasta que llegas a
                   RUSIA
                 </Titulo>
