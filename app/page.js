@@ -68,7 +68,7 @@ export default function Home() {
         <div className="bg-[#004091]">
           <div className="bg-[url('/topN.png')] bg-cover bg-no-repeat bg-center lg:h-96 sm:h-[36rem] h-[45rem]">
             <div className="md:w-[70%] w-[90%] mx-auto">
-              <div className="sm:flex sm:items-center py-10">
+              <div className="sm:flex sm:items-center py-10 animate-fade-right">
                 <div>
                   <div className="w-24 md:w-44">
                     <Image
@@ -106,11 +106,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <OpacityAnimation>
-              <div className="w-full lg:w-[75%] mx-auto">
-                <YoutubeEmbed embedId="OlI_glpNGUY" />
-              </div>
-            </OpacityAnimation>
+            <div className="w-full lg:w-[75%] mx-auto">
+              <YoutubeEmbed embedId="OlI_glpNGUY" />
+            </div>
             <div>
               <div className="py-16">
                 <div>
@@ -136,10 +134,52 @@ export default function Home() {
               </div>
             </div>
 
+            <div>
+              <div className="py-16">
+                <div>
+                  <OpacityAnimation>
+                    <Titulo styles="text-[#FFBD59] uppercase text-center">
+                      ¿DIME CUÁL CARRERA DESEAS ESTUDIAR? Y BUSCAREMOS PARA TI
+                      LAS MEJORES UNIVERSIDADES A TU DISPOSICIÓN
+                    </Titulo>
+                    <Parrafo styles="hyphens-auto text-white">
+                      Yo entiendo todo el lío que conlleva buscar que
+                      universidad y qué carrera seguir, así que para eso te
+                      tengo una mejor solución, al final de la web habrá un
+                      botón para que llenes un formulario, donde mi equipo de
+                      trabajo se pondrá en contacto contigo y en una
+                      videollamada presentarte la solución en menos de 30
+                      minutos y así ya inicies el proceso de admisión y no te
+                      quedes sin cupo.
+                    </Parrafo>
+                    <p className="text-xl text-white mt-4 font-bold">
+                      Consulta ya nuestras asesorías totalmente gratis!! Nuestro
+                      trabajo es asesorarte en
+                    </p>
+                  </OpacityAnimation>
+                </div>
+              </div>
+            </div>
+
+            <OpacityAnimation>
+              <div className="h-72">
+                <Image
+                  src="/2.jpg"
+                  width={900}
+                  height={900}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </OpacityAnimation>
+
             <div className="py-16">
-              <Titulo styles="text-[#FFBD59] text-center sm:w-[90%] mx-auto">
-                PASO A PASO DESDE QUE ESTAS EN TU PAÍS HASTA QUE LLEGAS A RUSIA
-              </Titulo>
+              <OpacityAnimation>
+                <Titulo styles="text-[#FFBD59] text-center sm:w-[75%] mx-auto">
+                  PASO A PASO DESDE QUE ESTAS EN TU PAÍS HASTA QUE LLEGAS A
+                  RUSIA
+                </Titulo>
+              </OpacityAnimation>
+
               <div className="flex flex-col items-center justify-center md:flex-row">
                 <div className="w-full">
                   <ul className="mt-6">
@@ -167,10 +207,23 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="w-[85%] mx-auto py-10">
-              <Titulo styles="text-[#FFBD59] text-center">
-                ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
-              </Titulo>
+            <OpacityAnimation>
+              <div className="h-72">
+                <Image
+                  src="/7.jpg"
+                  width={900}
+                  height={900}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </OpacityAnimation>
+            <div className="w-[85%] mx-auto pb-10 pt-16">
+              <OpacityAnimation>
+                <Titulo styles="text-[#FFBD59] text-center">
+                  ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
+                </Titulo>
+              </OpacityAnimation>
+
               <div className="flex flex-col items-center justify-center md:flex-row mt-8">
                 <div className="lg:mx-[6%]">
                   <YoutubeEmbedVertical embedId="3jFIyaN04g4" />
@@ -196,9 +249,12 @@ export default function Home() {
               </div>
               <div className="w-full text-center mt-8">
                 <div className="h-[1px] bg-[#FFBD59] w-full"></div>
-                <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
-                  ¿Quieres ser el proximo en Rusia?
-                </button>
+                <OpacityAnimation>
+                  <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
+                    ¿Quieres ser el proximo en Rusia? Quiero ser el proximo en
+                    Rusia
+                  </button>
+                </OpacityAnimation>
               </div>
             </div>
           </div>
