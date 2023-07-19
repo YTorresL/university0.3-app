@@ -14,15 +14,14 @@ const proceso = [
       "Pasaporte",
       "Título de bachiller",
       "Notas del colegio",
-      "(DOCUMENTOS APOSTILLADOS)",
     ],
   },
   {
     title: "SEGUNDO PASO",
     list: [
       "Llenar formulario",
-      "fotografía 3,5 x 4,5",
-      "certificado de vih (decirle que es para estudiar en el extranjero)",
+      "Fotografía 3,5 x 4,5",
+      "Certificado de VIH (decirle que es para estudiar en el extranjero)",
       "Compra de seguro médico",
     ],
   },
@@ -67,19 +66,21 @@ export default function Home() {
     <>
       <main>
         <div className="bg-[#004091]">
-          <div className="bg-[url('/top.png')] bg-contain h-96">
-            <div className="w-[70%] mx-auto">
-              <div className="flex items-center py-10">
+          <div className="bg-[url('/topN.png')] bg-cover bg-no-repeat bg-center lg:h-96 sm:h-[36rem] h-[45rem]">
+            <div className="md:w-[70%] w-[90%] mx-auto">
+              <div className="sm:flex sm:items-center py-10">
                 <div>
-                  <Image
-                    src="/profile.png"
-                    width="800"
-                    height="800"
-                    className="w-full h-full object-contain"
-                  />
+                  <div className="w-24 md:w-44">
+                    <Image
+                      src="/profile.png"
+                      width="800"
+                      height="800"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
                 </div>
-                <div className="ml-4 text-[#004091]">
-                  <p>
+                <div className="ml-4">
+                  <Parrafo styles="text-[#004091] hyphens-auto">
                     ¡Hola! Soy Mariano Reyes y mi misión es llevar a 1 millón de
                     estudiantes latinos a que puedan relacionarse con una
                     educación totalmente proactiva en Rusia. Para eso, he
@@ -87,12 +88,12 @@ export default function Home() {
                     países y nativos, con el propósito de llevarte a que puedas
                     desbloquear todas las experiencias que este grandioso país
                     tiene para ofrecerte.
-                  </p>
+                  </Parrafo>
                 </div>
               </div>
             </div>
           </div>
-          <div className="w-[70%] mx-auto">
+          <div className="md:w-[70%] w-[90%] mx-auto">
             <div className="flex flex-col justify-center items-center">
               <div className="mb-8">
                 <div className="h-12">
@@ -117,14 +118,14 @@ export default function Home() {
                     <Titulo styles="text-[#FFBD59] uppercase text-center">
                       ¿Te preocupa el idioma?
                     </Titulo>
-                    <Parrafo styles="mt-4 text-xl hyphens-auto">
+                    <Parrafo styles="hyphens-auto text-white">
                       Quiero serte sincero y es que esa pregunta tambien me la
                       he realizado yo y el 99% de todos los latinos que estamos
                       en rusia, y tengo una respuesta sencilla para esto, antes
                       de iniciar una carrera universitaria, maestría o el
                       interés que tengas, debes cursar el año de preparatoria
                       del idioma ruso, así que no te preocupes, que antes de
-                      iniciar tu carrera ya estarás hablando ruso , y si solo
+                      iniciar tu carrera ya estarás hablando ruso, y si solo
                       quieres venir a estudiar el idioma, también es posible, no
                       es obligatorio cursar una carrera universitaria, pero
                       dejame decirte que no he conocido a un latino que venga a
@@ -136,7 +137,7 @@ export default function Home() {
             </div>
 
             <div className="py-16">
-              <Titulo styles="text-[#FFBD59] uppercase text-center w-[90%] mx-auto">
+              <Titulo styles="text-[#FFBD59] text-center sm:w-[90%] mx-auto">
                 PASO A PASO DESDE QUE ESTAS EN TU PAÍS HASTA QUE LLEGAS A RUSIA
               </Titulo>
               <div className="flex flex-col items-center justify-center md:flex-row">
@@ -146,13 +147,13 @@ export default function Home() {
                       {proceso.map((item, index) => (
                         <li className="flex my-3 leading-6" key={index}>
                           <div className="flex flex-col">
-                            <h1 className="my-0 text-xl font-semibold text-[#FFBD59]">
+                            <h1 className="my-0 text-lg font-semibold text-[#FFBD59]">
                               {item.title}
                             </h1>
-                            <ol className="list-decimal text-xl text-white">
+                            <ol className="list-decimal text-white">
                               {item.list.map((item, index) => (
                                 <li key={index} className="ml-8">
-                                  <Parrafo>{item}</Parrafo>
+                                  <p className="text-base sm:text-lg">{item}</p>
                                 </li>
                               ))}
                             </ol>
@@ -167,7 +168,7 @@ export default function Home() {
           </div>
           <div>
             <div className="w-[85%] mx-auto py-10">
-              <Titulo styles="text-[#FFBD59] uppercase text-center">
+              <Titulo styles="text-[#FFBD59] text-center">
                 ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
               </Titulo>
               <div className="flex flex-col items-center justify-center md:flex-row mt-8">
@@ -176,11 +177,14 @@ export default function Home() {
                 </div>
                 <OpacityAnimation>
                   <div className="md:ml-6 my-6">
-                    <p className="text-xl font-bold text-white sm:text-2xl md:text-3xl m-0 mt-3">
-                      En ZDOROVO te brindamos dos opciones: <br /> RESIDENCIA
-                      ESTUDIANTIL <br /> DEPARTAMENTOS PRIVADOS
+                    <p className="text-lg font-bold text-white sm:text-xl m-0 mt-3">
+                      En ZDOROVO te brindamos dos opciones:
                     </p>
-                    <Parrafo styles="text-xl mt-4">
+                    <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
+                      <li>RESIDENCIA ESTUDIANTIL</li>
+                      <li>DEPARTAMENTOS PRIVADOS</li>
+                    </ul>
+                    <Parrafo styles="text-white">
                       Aún te quedan dudas, los miembros de la comunidad te las
                       resolverán en el siguiente video. <br /> Ya están viviendo
                       la experiencia de pertenecer a la comunidad latina de más
@@ -191,7 +195,7 @@ export default function Home() {
                 </OpacityAnimation>
               </div>
               <div className="w-full text-center mt-8">
-                <div className="h-[1px] bg-[#FFBD59] w-[30rem] mx-auto"></div>
+                <div className="h-[1px] bg-[#FFBD59] w-full"></div>
                 <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
                   ¿Quieres ser el proximo en Rusia?
                 </button>
@@ -201,9 +205,9 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-[#004091] bg-[url('/botton.png')] bg-contain h-96">
+      <footer className="bg-[#004091] bg-[url('/bottonN.png')] bg-cover bg-no-repeat bg-center h-96">
         <div className="flex items-center justify-center h-full">
-          <div className="h-20 mt-24">
+          <div className="sm:h-20 h-16 mt-24">
             <Image
               src="/logo.png"
               width="800"
