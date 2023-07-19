@@ -739,6 +739,9 @@ video {
 .mr-2 {
   margin-right: 0.5rem;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
 .flex {
   display: flex;
 }
@@ -793,6 +796,12 @@ video {
 .h-8 {
   height: 2rem;
 }
+.h-60 {
+  height: 15rem;
+}
+.h-64 {
+  height: 16rem;
+}
 .w-\[30rem\] {
   width: 30rem;
 }
@@ -819,6 +828,12 @@ video {
 }
 .w-96 {
   width: 24rem;
+}
+.w-\[25rem\] {
+  width: 25rem;
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 @keyframes fade-right {
 
@@ -864,6 +879,9 @@ video {
 }
 .gap-3 {
   gap: 0.75rem;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -913,6 +931,10 @@ video {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -966,6 +988,9 @@ video {
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-extrabold {
+  font-weight: 800;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1023,9 +1048,30 @@ video {
   hyphens: auto;
 }
 
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:bg-\[\#FFBD59\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 189 89 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 320px) {
+
+  .min-\[320px\]\:h-\[30rem\] {
+    height: 30rem;
+  }
+
+  .min-\[320px\]\:h-\[35rem\] {
+    height: 35rem;
+  }
+
+  .min-\[320px\]\:h-\[38rem\] {
+    height: 38rem;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1100,8 +1146,16 @@ video {
     margin-left: 1.5rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:h-96 {
     height: 24rem;
+  }
+
+  .md\:h-\[27rem\] {
+    height: 27rem;
   }
 
   .md\:w-\[70\%\] {
@@ -1122,6 +1176,10 @@ video {
 
   .md\:w-\[75\%\] {
     width: 75%;
+  }
+
+  .md\:w-\[18rem\] {
+    width: 18rem;
   }
 
   .md\:grid-cols-2 {
@@ -1156,6 +1214,10 @@ video {
 
   .lg\:w-\[75\%\] {
     width: 75%;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:grid-cols-2 {

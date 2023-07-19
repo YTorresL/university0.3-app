@@ -5,6 +5,8 @@ import Parrafo from "@/components/Paragraph/page"
 import Titulo from "@/components/Title/page"
 import OpacityAnimation from "@/components/OpacityAnimation/page"
 import Image from "next/image"
+import Slider from "react-slick"
+import ImageWidth from "@/components/ImageWidth/page"
 
 const proceso = [
   {
@@ -33,7 +35,34 @@ const proceso = [
     ],
   },
 ]
-
+const slider1 = [
+  {
+    image: "/1.jpg",
+  },
+  {
+    image: "/2.jpg",
+  },
+  {
+    image: "/3.jpg",
+  },
+  {
+    image: "/4.jpg",
+  },
+]
+const slider2 = [
+  {
+    image: "/5.jpg",
+  },
+  {
+    image: "/6.jpg",
+  },
+  {
+    image: "/7.jpg",
+  },
+  {
+    image: "/8.jpg",
+  },
+]
 const banderas = [
   {
     name: "rusia",
@@ -84,11 +113,21 @@ export default function Home() {
     </div>
   )
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 3000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  }
+
   return (
     <>
       <main>
         <div className="bg-[#004091]">
-          <div className="bg-[url('/topN.png')] bg-cover bg-no-repeat bg-center lg:h-96 sm:h-[36rem] h-[45rem]">
+          <div className="bg-[url('/topN.png')] bg-cover bg-no-repeat bg-center lg:h-96 min-[320px]:h-[38rem] sm:h-[36rem] h-[45rem]">
             <div className="md:w-[70%] w-[90%] mx-auto">
               <div className="sm:flex sm:items-center py-10 animate-fade-right">
                 <div>
@@ -104,22 +143,24 @@ export default function Home() {
                 </div>
                 <div className="sm:ml-4">
                   <Parrafo styles="text-[#004091] hyphens-auto text-justify">
-                    ¡Hola! Soy <span className="font-bold">Mariano Reyes</span>{" "}
-                    y mi misión es llevar a{" "}
-                    <span className="font-bold">
+                    ¡Hola! Soy{" "}
+                    <span className="font-extrabold">Mariano Reyes</span> y mi
+                    misión es llevar a{" "}
+                    <span className="font-extrabold">
                       1 millón de estudiantes latinos
                     </span>{" "}
                     a que puedan relacionarse con una{" "}
-                    <span className="font-bold">educación</span> totalmente
-                    proactiva en <span className="font-bold">Rusia.</span> Para
-                    eso, he cofundado <span className="font-bold">ZDOROVO</span>
-                    , una <span className="font-bold">comunidad</span> de
+                    <span className="font-extrabold">educación</span> totalmente
+                    proactiva en <span className="font-extrabold">Rusia.</span>{" "}
+                    Para eso, he cofundado{" "}
+                    <span className="font-extrabold">ZDOROVO</span>, una{" "}
+                    <span className="font-extrabold">comunidad</span> de
                     personas de todos los países y nativos, con el{" "}
-                    <span className="font-bold">
+                    <span className="font-extrabold">
                       propósito de llevarte a que puedas desbloquear
                     </span>{" "}
                     todas las{" "}
-                    <span className="font-bold">
+                    <span className="font-extrabold">
                       experiencias que este grandioso país
                     </span>{" "}
                     tiene para ofrecerte.
@@ -149,18 +190,18 @@ export default function Home() {
                 <div>
                   <OpacityAnimation>
                     <Parrafo styles="hyphens-auto text-white text-justify">
-                      <span className="font-bold">
+                      <span className="font-extrabold">
                         Quieres estudiar en Rusia y no sabes como hacerlo.
                       </span>{" "}
                       Si llegaste hasta aquí, “es porque seguramente quieres dar
                       ese gran paso y{" "}
-                      <span className="font-bold">
+                      <span className="font-extrabold">
                         salir de tu zona de confort
                       </span>{" "}
                       como lo hemos hecho{" "}
-                      <span className="font-bold">miles de latinos</span> que
-                      estamos estudiando y viviendo{" "}
-                      <span className="font-bold">
+                      <span className="font-extrabold">miles de latinos</span>{" "}
+                      que estamos estudiando y viviendo{" "}
+                      <span className="font-extrabold">
                         miles de experiencias aquí en Rusia.
                       </span>
                       ”
@@ -183,25 +224,32 @@ export default function Home() {
                       ¿Te preocupa el idioma?
                     </Titulo>
                     <Parrafo styles="hyphens-auto text-white text-justify">
-                      <span className="font-bold"></span>
-                      Quiero serte sincero y es que esa pregunta tambien me la
-                      he realizado yo y el <span className="font-bold"></span>
-                      99% de todos los latinos que estamos en rusia, y tengo una
-                      <span className="font-bold"></span>
-                      respuesta sencilla para esto, antes de iniciar una carrera
-                      universitaria, maestría o el interés que tengas, debes
-                      <span className="font-bold"></span>
-                      cursar el año de preparatoria del idioma ruso, así que no
-                      te preocupes, que antes de iniciar tu carrera{" "}
-                      <span className="font-bold"></span>
-                      ya estarás hablando ruso, y si solo quieres venir a
-                      estudiar el idioma, también es posible,{" "}
-                      <span className="font-bold"></span>
-                      no es obligatorio cursar una carrera universitaria, pero
-                      dejame decirte que no he conocido a un{" "}
-                      <span className="font-bold"></span>
-                      latino que venga a <span className="font-bold"></span>
-                      Rusia y no se quiera quedar.
+                      <span className="font-extrabold">
+                        Quiero serte sincero
+                      </span>{" "}
+                      y es que esa pregunta tambien me la he realizado yo y el{" "}
+                      <span className="font-extrabold">
+                        99% de todos los latinos que estamos en rusia
+                      </span>
+                      , y tengo una{" "}
+                      <span className="font-extrabold">respuesta sencilla</span>{" "}
+                      para esto, antes de iniciar una carrera universitaria,
+                      maestría o el interés que tengas, debes{" "}
+                      <span className="font-extrabold">
+                        cursar el año de preparatoria del idioma ruso
+                      </span>
+                      , así que no te preocupes, que antes de iniciar tu carrera{" "}
+                      <span className="font-extrabold">
+                        ya estarás hablando ruso
+                      </span>
+                      , y si solo quieres venir a estudiar el idioma, también es
+                      posible,{" "}
+                      <span className="font-extrabold">no es obligatorio</span>{" "}
+                      cursar una carrera universitaria, pero dejame decirte que
+                      no he conocido a un{" "}
+                      <span className="font-extrabold">latino</span> que venga a{" "}
+                      <span className="font-extrabold">Rusia</span> y no se
+                      quiera quedar.
                     </Parrafo>
                   </OpacityAnimation>
                 </div>
@@ -232,21 +280,12 @@ export default function Home() {
             </div>
 
             <OpacityAnimation>
-              <div className="sm:w-96 mx-auto border-2 border-[#FFBD59]">
-                <Image
-                  src="/2.jpg"
-                  alt="Yo entiendo todo el lío que conlleva buscar que
-                      universidad y qué carrera seguir, así que para eso te
-                      tengo una mejor solución, al final de la web habrá un
-                      botón para que llenes un formulario, donde mi equipo de
-                      trabajo se pondrá en contacto contigo y en una
-                      videollamada presentarte la solución en menos de 30
-                      minutos y así ya inicies el proceso de admisión y no te
-                      quedes sin cupo."
-                  width={900}
-                  height={900}
-                  className="w-full h-full object-contain"
-                />
+              <div className="h-60 overflow-hidden w-full sm:w-96 mx-auto border-2 border-[#FFBD59]">
+                <Slider {...settings}>
+                  {slider1.map((item, index) => (
+                    <ImageWidth src={item.image} key={index} />
+                  ))}
+                </Slider>
               </div>
             </OpacityAnimation>
 
@@ -294,31 +333,25 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="md:w-[70%] w-[90%] mx-auto">
             <OpacityAnimation>
-              <div className="sm:w-96 mx-auto border-2 border-[#FFBD59]">
-                <Image
-                  src="/7.jpg"
-                  alt="Aún te quedan dudas, los miembros de la comunidad te las
-                      resolverán en el siguiente video. Ya están viviendo
-                      la experiencia de pertenecer a la comunidad latina de más
-                      rápido crecimiento en Rusia con ZDOROVO. Y tú, quieres ser
-                      el próximo"
-                  width={900}
-                  height={900}
-                  className="w-full h-full object-contain"
-                />
+              <div className="h-60 overflow-hidden w-full sm:w-96 mx-auto border-2 border-[#FFBD59]">
+                <Slider {...settings}>
+                  {slider2.map((item, index) => (
+                    <ImageWidth src={item.image} key={index} />
+                  ))}
+                </Slider>
               </div>
             </OpacityAnimation>
-            <div className="md:w-[70%] w-[90%] mx-auto pb-6 pt-16">
+            <div className="pb-6 pt-16">
               <OpacityAnimation>
                 <Titulo styles="text-[#FFBD59] text-center">
                   ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
                 </Titulo>
                 <div className="mb-16">
                   <p className="text-lg font-bold text-white sm:text-xl m-0 mt-3">
-                    En <span className="font-bold"></span>
-                    ZDOROVO te brindamos dos opciones:
+                    En <span className="font-extrabold">ZDOROVO</span> te
+                    brindamos dos opciones:
                   </p>
                   <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
                     <li>RESIDENCIA ESTUDIANTIL</li>
@@ -328,40 +361,41 @@ export default function Home() {
                     Los miembros de la comunidad te las resolverán en el
                     siguiente video. Ellos ya están viviendo la experiencia de
                     pertenecer a la comunidad latina de más rápido crecimiento
-                    en Rusia con ZDOROVO y TÚ VAS SER EL PRÓXIMO.
+                    en Rusia con ZDOROVO y{" "}
+                    <span className="font-bold">TÚ VAS SER EL PRÓXIMO.</span>
                   </Parrafo>
                 </div>
               </OpacityAnimation>
             </div>
-            <div className="w-[90%] mx-auto pb-10">
-              <OpacityAnimation>
-                <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-3">
-                  {banderas.map((item, index) => (
-                    <div key={index}>
-                      <div>
-                        <YoutubeEmbedVertical embedId={item.video} />
-                      </div>
-                      <div key={index} className="h-10 mt-4 mb-1">
-                        <Image
-                          src={item.image}
-                          width={500}
-                          height={500}
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
+          </div>
+          <div className="w-[90%] mx-auto pb-10">
+            <OpacityAnimation>
+              <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-3">
+                {banderas.map((item, index) => (
+                  <div key={index}>
+                    <div>
+                      <YoutubeEmbedVertical embedId={item.video} />
                     </div>
-                  ))}
-                </div>
-              </OpacityAnimation>
-
-              <div className="w-full text-center mt-8">
-                <div className="h-[2px] bg-[#FFBD59] w-full"></div>
-                <OpacityAnimation>
-                  <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
-                    Quiero ser el proximo en Rusia
-                  </button>
-                </OpacityAnimation>
+                    <div key={index} className="h-10 mt-4 mb-1">
+                      <Image
+                        src={item.image}
+                        width={500}
+                        height={500}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                ))}
               </div>
+            </OpacityAnimation>
+
+            <div className="w-full text-center mt-8">
+              <div className="h-[2px] bg-[#FFBD59] w-full"></div>
+              <OpacityAnimation>
+                <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
+                  Quiero ser el proximo en Rusia
+                </button>
+              </OpacityAnimation>
             </div>
           </div>
         </div>

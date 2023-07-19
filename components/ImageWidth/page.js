@@ -6,7 +6,7 @@ export default function ImageWidth({ src }) {
       <div className="sm:w-96 w-full h-60">
         <Image
           src={src}
-          alt=""
+          alt="Estudia en Rusia"
           width={1000}
           height={1000}
           className="object-cover w-full h-full"
