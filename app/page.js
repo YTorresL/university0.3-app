@@ -121,7 +121,7 @@ export default function Home() {
           <div className="md:w-[70%] w-[90%] mx-auto">
             <div className="flex flex-col justify-center items-center">
               <div className="mb-8">
-                <div className="h-12">
+                <div className="h-8">
                   <Image
                     src="/arrow.png"
                     width="200"
@@ -298,11 +298,13 @@ export default function Home() {
                 </div>
               </OpacityAnimation>
               <OpacityAnimation>
-                <div className="grid grid-cols-4 gap-3">
+                <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-3">
                   {banderas.map((item, index) => (
                     <div key={index}>
-                      <YoutubeEmbedVertical embedId={item.video} />
-                      <div key={index} className="h-10 mt-4">
+                      <div>
+                        <YoutubeEmbedVertical embedId={item.video} />
+                      </div>
+                      <div key={index} className="h-10 mt-4 mb-1">
                         <Image
                           src={item.image}
                           width={500}
