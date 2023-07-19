@@ -36,6 +36,30 @@ const proceso = [
   },
 ]
 
+const banderas = [
+  {
+    name: "rusia",
+    image: "/ru.png",
+    video: "FUiTL8_jUek",
+  },
+  {
+    name: "venezuela",
+    image: "/ve.png",
+    video: "3jFIyaN04g4",
+  },
+  {
+    name: "peru",
+    image: "/peru.png",
+    video: "FUiTL8_jUek",
+  },
+
+  {
+    name: "españa",
+    image: "/es.png",
+    video: "3jFIyaN04g4",
+  },
+]
+
 export default function Home() {
   const YoutubeEmbed = ({ embedId }) => (
     <div className="video-responsive">
@@ -51,9 +75,9 @@ export default function Home() {
   )
 
   const YoutubeEmbedVertical = ({ embedId }) => (
-    <div>
+    <div className="border-2 border-[#FFBD59]">
       <iframe
-        width="280"
+        width="273"
         height="400"
         src={`https://www.youtube.com/embed/${embedId}`}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
@@ -73,6 +97,7 @@ export default function Home() {
                   <div className="w-24 md:w-44">
                     <Image
                       src="/profile.png"
+                      alt="Mariano Reyes"
                       width="800"
                       height="800"
                       className="w-full h-full object-contain"
@@ -108,6 +133,27 @@ export default function Home() {
             </div>
             <div className="w-full lg:w-[75%] mx-auto">
               <YoutubeEmbed embedId="OlI_glpNGUY" />
+            </div>
+            <div>
+              <div className="py-16">
+                <div>
+                  <OpacityAnimation>
+                    <Parrafo styles="hyphens-auto text-white">
+                      Quieres estudiar en Rusia y no sabes como hacerlo. Si
+                      llegaste hasta aquí, “es porque seguramente quieres dar
+                      ese gran paso y salir de tu zona de confort como lo hemos
+                      hecho miles de latinos que estamos estudiando y viviendo
+                      miles de experiencias aquí en Rusia.”
+                    </Parrafo>
+                    <Parrafo styles="hyphens-auto text-white mt-4">
+                      Pero antes de hablar del proceso de documentación,
+                    </Parrafo>
+                    <p className="text-lg text-white font-bold">
+                      DÉJAME HACERTE UNA PREGUNTA.
+                    </p>
+                  </OpacityAnimation>
+                </div>
+              </div>
             </div>
             <div>
               <div className="py-16">
@@ -162,9 +208,17 @@ export default function Home() {
             </div>
 
             <OpacityAnimation>
-              <div className="h-72">
+              <div className="sm:w-96 mx-auto border-2 border-[#FFBD59]">
                 <Image
                   src="/2.jpg"
+                  alt="Yo entiendo todo el lío que conlleva buscar que
+                      universidad y qué carrera seguir, así que para eso te
+                      tengo una mejor solución, al final de la web habrá un
+                      botón para que llenes un formulario, donde mi equipo de
+                      trabajo se pondrá en contacto contigo y en una
+                      videollamada presentarte la solución en menos de 30
+                      minutos y así ya inicies el proceso de admisión y no te
+                      quedes sin cupo."
                   width={900}
                   height={900}
                   className="w-full h-full object-contain"
@@ -174,7 +228,7 @@ export default function Home() {
 
             <div className="py-16">
               <OpacityAnimation>
-                <Titulo styles="text-[#FFBD59] text-center sm:w-[75%] mx-auto">
+                <Titulo styles="text-[#FFBD59] text-center md:w-[75%] mx-auto">
                   PASO A PASO DESDE QUE ESTAS EN TU PAÍS HASTA QUE LLEGAS A
                   RUSIA
                 </Titulo>
@@ -208,9 +262,14 @@ export default function Home() {
           </div>
           <div>
             <OpacityAnimation>
-              <div className="h-72">
+              <div className="sm:w-96 mx-auto border-2 border-[#FFBD59]">
                 <Image
                   src="/7.jpg"
+                  alt="Aún te quedan dudas, los miembros de la comunidad te las
+                      resolverán en el siguiente video. Ya están viviendo
+                      la experiencia de pertenecer a la comunidad latina de más
+                      rápido crecimiento en Rusia con ZDOROVO. Y tú, quieres ser
+                      el próximo"
                   width={900}
                   height={900}
                   className="w-full h-full object-contain"
@@ -222,37 +281,45 @@ export default function Home() {
                 <Titulo styles="text-[#FFBD59] text-center">
                   ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
                 </Titulo>
+                <div className="ml-[6%] mb-16">
+                  <p className="text-lg font-bold text-white sm:text-xl m-0 mt-3">
+                    En ZDOROVO te brindamos dos opciones:
+                  </p>
+                  <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
+                    <li>RESIDENCIA ESTUDIANTIL</li>
+                    <li>DEPARTAMENTOS PRIVADOS</li>
+                  </ul>
+                  <Parrafo styles="hyphens-auto text-white">
+                    Los miembros de la comunidad te las resolverán en el
+                    siguiente video. Ellos ya están viviendo la experiencia de
+                    pertenecer a la comunidad latina de más rápido crecimiento
+                    en Rusia con ZDOROVO y TÚ VAS SER EL PRÓXIMO.
+                  </Parrafo>
+                </div>
+              </OpacityAnimation>
+              <OpacityAnimation>
+                <div className="grid grid-cols-4 gap-3">
+                  {banderas.map((item, index) => (
+                    <div key={index}>
+                      <YoutubeEmbedVertical embedId={item.video} />
+                      <div key={index} className="h-10 mt-4">
+                        <Image
+                          src={item.image}
+                          width={500}
+                          height={500}
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </OpacityAnimation>
 
-              <div className="flex flex-col items-center justify-center md:flex-row mt-8">
-                <div className="lg:mx-[6%]">
-                  <YoutubeEmbedVertical embedId="3jFIyaN04g4" />
-                </div>
-                <OpacityAnimation>
-                  <div className="md:ml-6 my-6">
-                    <p className="text-lg font-bold text-white sm:text-xl m-0 mt-3">
-                      En ZDOROVO te brindamos dos opciones:
-                    </p>
-                    <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
-                      <li>RESIDENCIA ESTUDIANTIL</li>
-                      <li>DEPARTAMENTOS PRIVADOS</li>
-                    </ul>
-                    <Parrafo styles="text-white">
-                      Aún te quedan dudas, los miembros de la comunidad te las
-                      resolverán en el siguiente video. <br /> Ya están viviendo
-                      la experiencia de pertenecer a la comunidad latina de más
-                      rápido crecimiento en Rusia con ZDOROVO. Y tú, quieres ser
-                      el próximo
-                    </Parrafo>
-                  </div>
-                </OpacityAnimation>
-              </div>
               <div className="w-full text-center mt-8">
-                <div className="h-[1px] bg-[#FFBD59] w-full"></div>
+                <div className="h-[2px] bg-[#FFBD59] w-full"></div>
                 <OpacityAnimation>
                   <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
-                    ¿Quieres ser el proximo en Rusia? Quiero ser el proximo en
-                    Rusia
+                    Quiero ser el proximo en Rusia
                   </button>
                 </OpacityAnimation>
               </div>
@@ -266,6 +333,7 @@ export default function Home() {
           <div className="sm:h-20 h-16 mt-24">
             <Image
               src="/logo.png"
+              alt="Logo ZDOROVO"
               width="800"
               height="800"
               className="w-full h-full object-contain"
