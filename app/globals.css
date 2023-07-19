@@ -16,3 +16,8 @@
   width: 100%;
   position: absolute;
 }
+
+.hyphens-auto {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}

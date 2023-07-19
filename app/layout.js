@@ -16,7 +16,7 @@ const font = Roboto({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={font.className}>
-      <body className="bg-[#27267E]">{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
