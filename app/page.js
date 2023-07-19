@@ -9,12 +9,10 @@ import Image from "next/image"
 const proceso = [
   {
     title: "PRIMER PASO",
-    list: [
+    description:
       "Recolección de documentos para la inscripción y esperar la carta de invitación.",
-      "Pasaporte",
-      "Título de bachiller",
-      "Notas del colegio",
-    ],
+    requisitos: "Requisitos:",
+    list: ["Pasaporte", "Título de bachiller", "Notas del colegio"],
   },
   {
     title: "SEGUNDO PASO",
@@ -29,7 +27,7 @@ const proceso = [
     title: "ÚLTIMO PASO",
     list: [
       "Compra de boletos de avión",
-      "Recibimiento en el aeropuerto (Posiblemente tu seas uno de los que lleguen exactamente aquí, nos encantará recibirte) - UBICACION AEROPUERTO",
+      "Recibimiento en el aeropuerto",
       "Acompañamiento a la residencia estudiantil y universidad.",
       "Acceso a la comunidad de más rápido crecimiento de latinos en Rusia y desbloquea las mejores experiencias que este grandioso país tiene para ofrecerte.",
     ],
@@ -104,14 +102,26 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="ml-4">
-                  <Parrafo styles="text-[#004091] hyphens-auto">
-                    ¡Hola! Soy Mariano Reyes y mi misión es llevar a 1 millón de
-                    estudiantes latinos a que puedan relacionarse con una
-                    educación totalmente proactiva en Rusia. Para eso, he
-                    cofundado ZDOROVO, una comunidad de personas de todos los
-                    países y nativos, con el propósito de llevarte a que puedas
-                    desbloquear todas las experiencias que este grandioso país
+                <div className="sm:ml-4">
+                  <Parrafo styles="text-[#004091] hyphens-auto text-justify">
+                    ¡Hola! Soy <span className="font-bold">Mariano Reyes</span>{" "}
+                    y mi misión es llevar a{" "}
+                    <span className="font-bold">
+                      1 millón de estudiantes latinos
+                    </span>{" "}
+                    a que puedan relacionarse con una{" "}
+                    <span className="font-bold">educación</span> totalmente
+                    proactiva en <span className="font-bold">Rusia.</span> Para
+                    eso, he cofundado <span className="font-bold">ZDOROVO</span>
+                    , una <span className="font-bold">comunidad</span> de
+                    personas de todos los países y nativos, con el{" "}
+                    <span className="font-bold">
+                      propósito de llevarte a que puedas desbloquear
+                    </span>{" "}
+                    todas las{" "}
+                    <span className="font-bold">
+                      experiencias que este grandioso país
+                    </span>{" "}
                     tiene para ofrecerte.
                   </Parrafo>
                 </div>
@@ -138,12 +148,22 @@ export default function Home() {
               <div className="py-16">
                 <div>
                   <OpacityAnimation>
-                    <Parrafo styles="hyphens-auto text-white">
-                      Quieres estudiar en Rusia y no sabes como hacerlo. Si
-                      llegaste hasta aquí, “es porque seguramente quieres dar
-                      ese gran paso y salir de tu zona de confort como lo hemos
-                      hecho miles de latinos que estamos estudiando y viviendo
-                      miles de experiencias aquí en Rusia.”
+                    <Parrafo styles="hyphens-auto text-white text-justify">
+                      <span className="font-bold">
+                        Quieres estudiar en Rusia y no sabes como hacerlo.
+                      </span>{" "}
+                      Si llegaste hasta aquí, “es porque seguramente quieres dar
+                      ese gran paso y{" "}
+                      <span className="font-bold">
+                        salir de tu zona de confort
+                      </span>{" "}
+                      como lo hemos hecho{" "}
+                      <span className="font-bold">miles de latinos</span> que
+                      estamos estudiando y viviendo{" "}
+                      <span className="font-bold">
+                        miles de experiencias aquí en Rusia.
+                      </span>
+                      ”
                     </Parrafo>
                     <Parrafo styles="hyphens-auto text-white mt-4">
                       Pero antes de hablar del proceso de documentación,
@@ -162,17 +182,25 @@ export default function Home() {
                     <Titulo styles="text-[#FFBD59] uppercase text-center">
                       ¿Te preocupa el idioma?
                     </Titulo>
-                    <Parrafo styles="hyphens-auto text-white">
+                    <Parrafo styles="hyphens-auto text-white text-justify">
+                      <span className="font-bold"></span>
                       Quiero serte sincero y es que esa pregunta tambien me la
-                      he realizado yo y el 99% de todos los latinos que estamos
-                      en rusia, y tengo una respuesta sencilla para esto, antes
-                      de iniciar una carrera universitaria, maestría o el
-                      interés que tengas, debes cursar el año de preparatoria
-                      del idioma ruso, así que no te preocupes, que antes de
-                      iniciar tu carrera ya estarás hablando ruso, y si solo
-                      quieres venir a estudiar el idioma, también es posible, no
-                      es obligatorio cursar una carrera universitaria, pero
-                      dejame decirte que no he conocido a un latino que venga a
+                      he realizado yo y el <span className="font-bold"></span>
+                      99% de todos los latinos que estamos en rusia, y tengo una
+                      <span className="font-bold"></span>
+                      respuesta sencilla para esto, antes de iniciar una carrera
+                      universitaria, maestría o el interés que tengas, debes
+                      <span className="font-bold"></span>
+                      cursar el año de preparatoria del idioma ruso, así que no
+                      te preocupes, que antes de iniciar tu carrera{" "}
+                      <span className="font-bold"></span>
+                      ya estarás hablando ruso, y si solo quieres venir a
+                      estudiar el idioma, también es posible,{" "}
+                      <span className="font-bold"></span>
+                      no es obligatorio cursar una carrera universitaria, pero
+                      dejame decirte que no he conocido a un{" "}
+                      <span className="font-bold"></span>
+                      latino que venga a <span className="font-bold"></span>
                       Rusia y no se quiera quedar.
                     </Parrafo>
                   </OpacityAnimation>
@@ -188,7 +216,7 @@ export default function Home() {
                       ¿DIME CUÁL CARRERA DESEAS ESTUDIAR? Y BUSCAREMOS PARA TI
                       LAS MEJORES UNIVERSIDADES A TU DISPOSICIÓN
                     </Titulo>
-                    <Parrafo styles="hyphens-auto text-white">
+                    <Parrafo styles="hyphens-auto text-white text-justify">
                       Yo entiendo todo el lío que conlleva buscar que
                       universidad y qué carrera seguir, así que para eso te
                       tengo una mejor solución, al final de la web habrá un
@@ -198,10 +226,6 @@ export default function Home() {
                       minutos y así ya inicies el proceso de admisión y no te
                       quedes sin cupo.
                     </Parrafo>
-                    <p className="text-xl text-white mt-4 font-bold">
-                      Consulta ya nuestras asesorías totalmente gratis!! Nuestro
-                      trabajo es asesorarte en
-                    </p>
                   </OpacityAnimation>
                 </div>
               </div>
@@ -244,9 +268,19 @@ export default function Home() {
                             <h1 className="my-0 text-lg font-semibold text-[#FFBD59]">
                               {item.title}
                             </h1>
-                            <ol className="list-decimal text-white">
+                            {item.description ? (
+                              <Parrafo styles="hyphens-auto text-white text-justify">
+                                {item.description} <br />
+                                {item.requisitos}
+                              </Parrafo>
+                            ) : (
+                              ""
+                            )}
+
+                            <ol className="text-white">
                               {item.list.map((item, index) => (
-                                <li key={index} className="ml-8">
+                                <li key={index} className="ml-8 flex">
+                                  <span className="mr-2">-</span>
                                   <p className="text-base sm:text-lg">{item}</p>
                                 </li>
                               ))}
@@ -276,20 +310,21 @@ export default function Home() {
                 />
               </div>
             </OpacityAnimation>
-            <div className="w-[85%] mx-auto pb-10 pt-16">
+            <div className="md:w-[70%] w-[90%] mx-auto pb-6 pt-16">
               <OpacityAnimation>
                 <Titulo styles="text-[#FFBD59] text-center">
                   ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
                 </Titulo>
-                <div className="ml-[6%] mb-16">
+                <div className="mb-16">
                   <p className="text-lg font-bold text-white sm:text-xl m-0 mt-3">
-                    En ZDOROVO te brindamos dos opciones:
+                    En <span className="font-bold"></span>
+                    ZDOROVO te brindamos dos opciones:
                   </p>
                   <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
                     <li>RESIDENCIA ESTUDIANTIL</li>
                     <li>DEPARTAMENTOS PRIVADOS</li>
                   </ul>
-                  <Parrafo styles="hyphens-auto text-white">
+                  <Parrafo styles="hyphens-auto text-white text-justify">
                     Los miembros de la comunidad te las resolverán en el
                     siguiente video. Ellos ya están viviendo la experiencia de
                     pertenecer a la comunidad latina de más rápido crecimiento
@@ -297,6 +332,8 @@ export default function Home() {
                   </Parrafo>
                 </div>
               </OpacityAnimation>
+            </div>
+            <div className="w-[90%] mx-auto pb-10">
               <OpacityAnimation>
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-3">
                   {banderas.map((item, index) => (
