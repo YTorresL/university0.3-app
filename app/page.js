@@ -48,9 +48,6 @@ const slider1 = [
   {
     image: "/universidad4.jpg",
   },
-  {
-    image: "/universidad5.jpg",
-  },
 ]
 const slider2 = [
   {
@@ -188,6 +185,16 @@ export default function Home() {
             </div>
           </div>
           <div className="md:w-[70%] w-[90%] mx-auto">
+            <div className="my-8">
+              <Titulo styles="text-[#FFBD59] uppercase text-center">
+                Dile hola a Rusia
+              </Titulo>
+              <Parrafo styles="hyphens-auto text-white text-center mt-2">
+                Sin importar si tienes un conocimiento mínimo del idioma y obtén
+                un visado en menos de 60 días
+              </Parrafo>
+            </div>
+
             <div className="flex flex-col justify-center items-center">
               <div className="mb-8">
                 <div className="h-8">
