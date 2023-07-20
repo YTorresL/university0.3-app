@@ -37,59 +37,77 @@ const proceso = [
 ]
 const slider1 = [
   {
-    image: "/1.jpg",
+    image: "/universidad1.jpg",
   },
   {
-    image: "/2.jpg",
+    image: "/universidad2.jpg",
   },
   {
-    image: "/3.jpg",
+    image: "/universidad3.jpg",
   },
   {
-    image: "/4.jpg",
+    image: "/universidad4.jpg",
+  },
+  {
+    image: "/universidad5.jpg",
   },
 ]
 const slider2 = [
   {
-    image: "/5.jpg",
+    image: "/experiencias1.jpg",
   },
   {
-    image: "/6.jpg",
+    image: "/experiencias2.jpg",
   },
   {
-    image: "/7.jpg",
+    image: "/experiencias3.jpg",
   },
   {
-    image: "/8.jpg",
+    image: "/experiencias4.jpg",
+  },
+  {
+    image: "/experiencias5.jpg",
+  },
+  {
+    image: "/experiencias6.jpg",
+  },
+  {
+    image: "/experiencias7.jpg",
+  },
+  {
+    image: "/experiencias8.jpg",
+  },
+  {
+    image: "/experiencias9.jpg",
   },
 ]
 const banderas = [
   {
     name: "rusia",
     image: "/ru.png",
-    video: "FUiTL8_jUek",
+    video: "2Mya0yOsvLY",
   },
   {
     name: "venezuela",
     image: "/ve.png",
-    video: "3jFIyaN04g4",
+    video: "XbJkTVIL4Dk",
   },
   {
     name: "peru",
     image: "/peru.png",
-    video: "FUiTL8_jUek",
+    video: "b11EPFvcis4",
   },
 
   {
     name: "españa",
     image: "/es.png",
-    video: "3jFIyaN04g4",
+    video: "si3ybGRL88o",
   },
 ]
 
 export default function Home() {
   const YoutubeEmbed = ({ embedId }) => (
-    <div className="video-responsive">
+    <div className="video-responsive border-2 border-[#FFBD59]">
       <iframe
         width="853"
         height="480"
@@ -183,7 +201,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full lg:w-[75%] mx-auto">
-              <YoutubeEmbed embedId="OlI_glpNGUY" />
+              <YoutubeEmbed embedId="sZW5xEqVHbc" />
             </div>
             <div>
               <div className="py-16">
@@ -308,10 +326,10 @@ export default function Home() {
                               {item.title}
                             </h1>
                             {item.description ? (
-                              <Parrafo styles="hyphens-auto text-white text-justify">
+                              <p className="hyphens-auto text-white text-justify text-base sm:text-lg">
                                 {item.description} <br />
                                 {item.requisitos}
-                              </Parrafo>
+                              </p>
                             ) : (
                               ""
                             )}
@@ -358,10 +376,9 @@ export default function Home() {
                     <li>DEPARTAMENTOS PRIVADOS</li>
                   </ul>
                   <Parrafo styles="hyphens-auto text-white text-justify">
-                    Los miembros de la comunidad te las resolverán en el
-                    siguiente video. Ellos ya están viviendo la experiencia de
-                    pertenecer a la comunidad latina de más rápido crecimiento
-                    en Rusia con ZDOROVO y{" "}
+                    Ellos ya están viviendo la experiencia de pertenecer a la
+                    comunidad latina de más rápido crecimiento en Rusia con
+                    ZDOROVO y{" "}
                     <span className="font-bold">TÚ VAS SER EL PRÓXIMO.</span>
                   </Parrafo>
                 </div>
