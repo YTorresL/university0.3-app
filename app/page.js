@@ -73,11 +73,6 @@ const slider2 = [
 ]
 const banderas = [
   {
-    name: "Rusia",
-    image: "/ru.png",
-    video: "khtd4l60ee",
-  },
-  {
     name: "Venezuela",
     image: "/ve.png",
     video: "pgkc1xz6ad",
@@ -101,6 +96,11 @@ const banderas = [
     name: "Ecuador",
     image: "/ec.png",
     video: "euoobya4w8",
+  },
+  {
+    name: "Rusia",
+    image: "/ru.png",
+    video: "khtd4l60ee",
   },
 ]
 
@@ -135,7 +135,7 @@ export default function Home() {
     ),
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1284,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -144,7 +144,7 @@ export default function Home() {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 964,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -152,7 +152,7 @@ export default function Home() {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 644,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
