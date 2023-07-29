@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-spring/web": "9.7.2",
+    "@wistia/react-embeds": "^0.0.19",
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
     "normalize.css": "8.0.1",

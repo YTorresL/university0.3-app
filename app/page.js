@@ -8,7 +8,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Slider from "react-slick"
 import ImageWidth from "@/components/ImageWidth/page"
-import { Wistia, WistiaVertical } from "@/components/Wistia/page"
+import { WistiaProvider, WistiaPlayer } from "@wistia/react-embeds"
 
 const proceso = [
   {
@@ -94,12 +94,12 @@ const banderas = [
   },
   {
     name: "Colombia",
-    image: "/es.png",
+    image: "/co.png",
     video: "yoj52d93d9",
   },
   {
     name: "Ecuador",
-    image: "/es.png",
+    image: "/ec.png",
     video: "euoobya4w8",
   },
 ]
@@ -219,7 +219,6 @@ export default function Home() {
                 un visado en menos de 60 días
               </Parrafo>
             </div>
-
             <div className="flex flex-col justify-center items-center">
               <div className="mb-8">
                 <div className="h-8">
@@ -234,8 +233,11 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full lg:w-[75%] mx-auto">
-            <div className="border-2 border-[#FFBD59]"><Wistia videoId="c7gmdqmdmn" wrapper="wistia-player-container-1" /></div>
-              
+              <div className="border-2 border-[#FFBD59]">
+                <WistiaProvider>
+                  <WistiaPlayer hashedId="c7gmdqmdmn" />
+                </WistiaProvider>
+              </div>
             </div>
             <div>
               <div className="py-5">
@@ -317,7 +319,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div>
               <div className="py-5">
                 <div>
@@ -347,7 +348,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <OpacityAnimation>
               <div className="h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
                 <Slider {...settings}>
@@ -357,7 +357,6 @@ export default function Home() {
                 </Slider>
               </div>
             </OpacityAnimation>
-
             <div className="py-5">
               <OpacityAnimation>
                 <Titulo styles="text-[#FFBD59] text-center md:w-[75%] mx-auto">
@@ -443,8 +442,17 @@ export default function Home() {
                 {banderas.map((item, index) => (
                   <div key={index}>
                     <div className="p-[13px]">
-                      <div className="h-[487px] mx-auto border-2 border-[#FFBD59] w-[273px] overflow-hidden">
-                        <WistiaVertical videoId={item.video} wrapper={`wistia-player-container-${index + 2}`} />
+                      <div className="h-[482px] mx-auto border-2 border-[#FFBD59] w-[273px] overflow-hidden">
+                        <WistiaProvider>
+                          <WistiaPlayer
+                            hashedId={item.video}
+                            videoFoam={false}
+                            style={{
+                              width: "273px",
+                              height: "482px",
+                            }}
+                          />
+                        </WistiaProvider>
                       </div>
                       <div key={index} className="h-10 mt-4 mb-1">
                         <Image
