@@ -2,6 +2,7 @@
   "name": "university0.3-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zdorovo-dileholaarusia.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,7 +19,7 @@
     "react-intersection-observer": "9.4.4",
     "react-slick": "0.29.0",
     "slick-carousel": "1.8.1",
-    "tailwindcss-animated": "^1.0.1"
+    "tailwindcss-animated": "1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "10.4.14",

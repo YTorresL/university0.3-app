@@ -5,8 +5,10 @@ import Parrafo from "@/components/Paragraph/page"
 import Titulo from "@/components/Title/page"
 import OpacityAnimation from "@/components/OpacityAnimation/page"
 import Image from "next/image"
+import Link from "next/link"
 import Slider from "react-slick"
 import ImageWidth from "@/components/ImageWidth/page"
+import { Wistia, WistiaVertical } from "@/components/Wistia/page"
 
 const proceso = [
   {
@@ -42,12 +44,6 @@ const slider1 = [
   {
     image: "/universidad2.jpg",
   },
-  {
-    image: "/universidad3.jpg",
-  },
-  {
-    image: "/universidad4.jpg",
-  },
 ]
 const slider2 = [
   {
@@ -74,60 +70,41 @@ const slider2 = [
   {
     image: "/experiencias8.jpg",
   },
-  {
-    image: "/experiencias9.jpg",
-  },
 ]
 const banderas = [
   {
-    name: "rusia",
+    name: "Rusia",
     image: "/ru.png",
-    video: "2Mya0yOsvLY",
+    video: "khtd4l60ee",
   },
   {
-    name: "venezuela",
+    name: "Venezuela",
     image: "/ve.png",
-    video: "XbJkTVIL4Dk",
+    video: "pgkc1xz6ad",
   },
   {
-    name: "peru",
+    name: "Peru",
     image: "/peru.png",
-    video: "b11EPFvcis4",
+    video: "a5830dutqr",
   },
-
   {
-    name: "españa",
+    name: "España",
     image: "/es.png",
-    video: "si3ybGRL88o",
+    video: "c0jeraxd4k",
+  },
+  {
+    name: "Colombia",
+    image: "/es.png",
+    video: "yoj52d93d9",
+  },
+  {
+    name: "Ecuador",
+    image: "/es.png",
+    video: "euoobya4w8",
   },
 ]
 
 export default function Home() {
-  const YoutubeEmbed = ({ embedId }) => (
-    <div className="video-responsive border-2 border-[#FFBD59]">
-      <iframe
-        width="853"
-        height="480"
-        src={`https://www.youtube.com/embed/${embedId}`}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Inicio"
-      />
-    </div>
-  )
-
-  const YoutubeEmbedVertical = ({ embedId }) => (
-    <div className="border-2 border-[#FFBD59]">
-      <iframe
-        width="273"
-        height="400"
-        src={`https://www.youtube.com/embed/${embedId}`}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-        allowFullScreen
-      />
-    </div>
-  )
-
   const settings = {
     dots: true,
     infinite: true,
@@ -138,47 +115,95 @@ export default function Home() {
     autoplaySpeed: 5000,
   }
 
+  const settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 3000,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    appendDots: (dots) => (
+      <div
+        style={{
+          backgroundColor: "fff",
+          borderRadius: "0px",
+          padding: "0px",
+        }}
+      >
+        <ul style={{ margin: "0px" }}></ul>
+      </div>
+    ),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  }
+
   return (
     <>
       <main>
         <div className="bg-[#004091]">
-          <div className="bg-[url('/topN.png')] bg-cover bg-no-repeat bg-center lg:h-96 min-[320px]:h-[38rem] sm:h-[36rem] h-[45rem]">
+          <div className="bg-[url('/topN.webp')] bg-cover bg-no-repeat bg-center lg:h-96 min-[320px]:h-[38rem] sm:h-[36rem] h-[45rem]">
             <div className="md:w-[70%] w-[90%] mx-auto">
               <div className="sm:flex sm:items-center py-10 animate-fade-right">
                 <div>
                   <div className="w-24 md:w-44">
                     <Image
-                      src="/profile.png"
+                      src="/profile.webp"
                       alt="Mariano Reyes"
-                      width="800"
-                      height="800"
+                      width="176"
+                      height="176"
                       className="w-full h-full object-contain"
                     />
                   </div>
                 </div>
                 <div className="sm:ml-4">
-                  <Parrafo styles="text-[#004091] hyphens-auto text-justify">
+                  <Parrafo styles="text-[#004091] text-center">
                     ¡Hola! Soy{" "}
                     <span className="font-extrabold">Mariano Reyes</span> y mi
-                    misión es llevar a{" "}
+                    misión es impulsar a{" "}
                     <span className="font-extrabold">
                       1 millón de estudiantes latinos
                     </span>{" "}
-                    a que puedan relacionarse con una{" "}
-                    <span className="font-extrabold">educación</span> totalmente
-                    proactiva en <span className="font-extrabold">Rusia.</span>{" "}
-                    Para eso, he cofundado{" "}
-                    <span className="font-extrabold">ZDOROVO</span>, una{" "}
-                    <span className="font-extrabold">comunidad</span> de
-                    personas de todos los países y nativos, con el{" "}
+                    a romper las barreras geográficas y expandir su{" "}
+                    <span className="font-extrabold">calidad de vida</span> a
+                    través de una educación dinámica en{" "}
+                    <span className="font-extrabold">Rusia</span>, donde no solo
+                    se llenen de{" "}
+                    <span className="font-extrabold">conocimientos</span>, sino
+                    de experiencias, lo que me llevó a cofundar{" "}
+                    <span className="font-extrabold">ZDOROVO</span>,{" "}
+                    <span className="font-extrabold">comunidad</span> de latinos
+                    con sed de{" "}
+                    <span className="font-extrabold">crecimiento</span> y
+                    nativos con hambre de aportar, que en conjunto nos centramos
+                    en{" "}
                     <span className="font-extrabold">
-                      propósito de llevarte a que puedas desbloquear
-                    </span>{" "}
-                    todas las{" "}
-                    <span className="font-extrabold">
-                      experiencias que este grandioso país
-                    </span>{" "}
-                    tiene para ofrecerte.
+                      crecer, aprender y disfrutar
+                    </span>
+                    .
                   </Parrafo>
                 </div>
               </div>
@@ -189,7 +214,7 @@ export default function Home() {
               <Titulo styles="text-[#FFBD59] uppercase text-center">
                 Dile hola a Rusia
               </Titulo>
-              <Parrafo styles="hyphens-auto text-white text-center mt-2">
+              <Parrafo styles="text-white text-center mt-2">
                 Sin importar si tienes un conocimiento mínimo del idioma y obtén
                 un visado en menos de 60 días
               </Parrafo>
@@ -200,41 +225,45 @@ export default function Home() {
                 <div className="h-8">
                   <Image
                     src="/arrow.png"
-                    width="200"
-                    height="200"
+                    width="51"
+                    height="33"
+                    alt="arrow"
                     className="w-full h-full object-contain"
                   />
                 </div>
               </div>
             </div>
             <div className="w-full lg:w-[75%] mx-auto">
-              <YoutubeEmbed embedId="sZW5xEqVHbc" />
+            <div className="border-2 border-[#FFBD59]"><Wistia videoId="c7gmdqmdmn" wrapper="wistia-player-container-1" /></div>
+              
             </div>
             <div>
-              <div className="py-16">
+              <div className="py-5">
                 <div>
                   <OpacityAnimation>
-                    <Parrafo styles="hyphens-auto text-white text-justify">
-                      <span className="font-extrabold">
+                    <Parrafo styles="text-white text-center">
+                      <span className="font-extrabold text-[#FFBD59]">
                         Quieres estudiar en Rusia y no sabes como hacerlo.
                       </span>{" "}
                       Si llegaste hasta aquí, “es porque seguramente quieres dar
                       ese gran paso y{" "}
-                      <span className="font-extrabold">
+                      <span className="font-extrabold text-[#FFBD59]">
                         salir de tu zona de confort
                       </span>{" "}
                       como lo hemos hecho{" "}
-                      <span className="font-extrabold">miles de latinos</span>{" "}
+                      <span className="font-extrabold text-[#FFBD59]">
+                        miles de latinos
+                      </span>{" "}
                       que estamos estudiando y viviendo{" "}
-                      <span className="font-extrabold">
+                      <span className="font-extrabold text-[#FFBD59]">
                         miles de experiencias aquí en Rusia.
                       </span>
                       ”
                     </Parrafo>
-                    <Parrafo styles="hyphens-auto text-white mt-4">
+                    <Parrafo styles="text-white text-center mt-4">
                       Pero antes de hablar del proceso de documentación,
                     </Parrafo>
-                    <p className="text-lg text-white font-bold">
+                    <p className="text-lg text-center text-[#FFBD59] font-bold">
                       DÉJAME HACERTE UNA PREGUNTA.
                     </p>
                   </OpacityAnimation>
@@ -242,39 +271,47 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="py-16">
+              <div className="py-5">
                 <div>
                   <OpacityAnimation>
                     <Titulo styles="text-[#FFBD59] uppercase text-center">
                       ¿Te preocupa el idioma?
                     </Titulo>
-                    <Parrafo styles="hyphens-auto text-white text-justify">
-                      <span className="font-extrabold">
+                    <Parrafo styles="text-white text-center">
+                      <span className="font-extrabold text-[#FFBD59]">
                         Quiero serte sincero
                       </span>{" "}
                       y es que esa pregunta tambien me la he realizado yo y el{" "}
-                      <span className="font-extrabold">
+                      <span className="font-extrabold text-[#FFBD59]">
                         99% de todos los latinos que estamos en rusia
                       </span>
                       , y tengo una{" "}
-                      <span className="font-extrabold">respuesta sencilla</span>{" "}
+                      <span className="font-extrabold text-[#FFBD59]">
+                        respuesta sencilla
+                      </span>{" "}
                       para esto, antes de iniciar una carrera universitaria,
                       maestría o el interés que tengas, debes{" "}
-                      <span className="font-extrabold">
+                      <span className="font-extrabold text-[#FFBD59]">
                         cursar el año de preparatoria del idioma ruso
                       </span>
                       , así que no te preocupes, que antes de iniciar tu carrera{" "}
-                      <span className="font-extrabold">
+                      <span className="font-extrabold text-[#FFBD59]">
                         ya estarás hablando ruso
                       </span>
                       , y si solo quieres venir a estudiar el idioma, también es
                       posible,{" "}
-                      <span className="font-extrabold">no es obligatorio</span>{" "}
-                      cursar una carrera universitaria, pero dejame decirte que
-                      no he conocido a un{" "}
-                      <span className="font-extrabold">latino</span> que venga a{" "}
-                      <span className="font-extrabold">Rusia</span> y no se
-                      quiera quedar.
+                      <span className="font-extrabold text-[#FFBD59]">
+                        no es obligatorio
+                      </span>{" "}
+                      cursar una carrera universitaria, y estoy{" "}
+                      <span className="font-extrabold text-[#FFBD59]">
+                        seguro
+                      </span>{" "}
+                      de que una vez vengas a{" "}
+                      <span className="font-extrabold text-[#FFBD59]">
+                        Rusia
+                      </span>
+                      , no te querrás ir.
                     </Parrafo>
                   </OpacityAnimation>
                 </div>
@@ -282,22 +319,29 @@ export default function Home() {
             </div>
 
             <div>
-              <div className="py-16">
+              <div className="py-5">
                 <div>
                   <OpacityAnimation>
                     <Titulo styles="text-[#FFBD59] uppercase text-center">
                       ¿DIME CUÁL CARRERA DESEAS ESTUDIAR? Y BUSCAREMOS PARA TI
                       LAS MEJORES UNIVERSIDADES A TU DISPOSICIÓN
                     </Titulo>
-                    <Parrafo styles="hyphens-auto text-white text-justify">
-                      Yo entiendo todo el lío que conlleva buscar que
-                      universidad y qué carrera seguir, así que para eso te
-                      tengo una mejor solución, al final de la web habrá un
-                      botón para que llenes un formulario, donde mi equipo de
-                      trabajo se pondrá en contacto contigo y en una
-                      videollamada presentarte la solución en menos de 30
-                      minutos y así ya inicies el proceso de admisión y no te
-                      quedes sin cupo.
+                    <Parrafo styles="text-white text-center">
+                      <span className="font-extrabold text-[#FFBD59]">
+                        Yo entiendo todo el lío que conlleva buscar que
+                        universidad y qué carrera seguir
+                      </span>
+                      , así que para eso te tengo una mejor solución, al final
+                      de la web habrá un botón para que llenes un formulario,{" "}
+                      <span className="font-extrabold text-[#FFBD59]">
+                        donde mi equipo de trabajo se pondrá en contacto contigo
+                      </span>{" "}
+                      y en una videollamada presentarte la solución en menos de
+                      30 minutos y{" "}
+                      <span className="font-extrabold text-[#FFBD59]">
+                        así ya inicies el proceso de admisión y no te quedes sin
+                        cupo.
+                      </span>
                     </Parrafo>
                   </OpacityAnimation>
                 </div>
@@ -305,7 +349,7 @@ export default function Home() {
             </div>
 
             <OpacityAnimation>
-              <div className="h-60 overflow-hidden w-full sm:w-96 mx-auto border-2 border-[#FFBD59]">
+              <div className="h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
                 <Slider {...settings}>
                   {slider1.map((item, index) => (
                     <ImageWidth src={item.image} key={index} />
@@ -314,7 +358,7 @@ export default function Home() {
               </div>
             </OpacityAnimation>
 
-            <div className="py-16">
+            <div className="py-5">
               <OpacityAnimation>
                 <Titulo styles="text-[#FFBD59] text-center md:w-[75%] mx-auto">
                   PASO A PASO DESDE QUE ESTAS EN TU PAÍS HASTA QUE LLEGAS A
@@ -324,16 +368,16 @@ export default function Home() {
 
               <div className="flex flex-col items-center justify-center md:flex-row">
                 <div className="w-full">
-                  <ul className="mt-6">
+                  <div className="mt-6">
                     <OpacityAnimation>
                       {proceso.map((item, index) => (
-                        <li className="flex my-3 leading-6" key={index}>
+                        <div className="flex my-3 leading-6" key={index}>
                           <div className="flex flex-col">
                             <h1 className="my-0 text-lg font-semibold text-[#FFBD59]">
                               {item.title}
                             </h1>
                             {item.description ? (
-                              <p className="hyphens-auto text-white text-justify text-base sm:text-lg">
+                              <p className="text-white text-base sm:text-lg">
                                 {item.description} <br />
                                 {item.requisitos}
                               </p>
@@ -350,17 +394,17 @@ export default function Home() {
                               ))}
                             </ol>
                           </div>
-                        </li>
+                        </div>
                       ))}
                     </OpacityAnimation>
-                  </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="md:w-[70%] w-[90%] mx-auto">
             <OpacityAnimation>
-              <div className="h-60 overflow-hidden w-full sm:w-96 mx-auto border-2 border-[#FFBD59]">
+              <div className="h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
                 <Slider {...settings}>
                   {slider2.map((item, index) => (
                     <ImageWidth src={item.image} key={index} />
@@ -368,25 +412,26 @@ export default function Home() {
                 </Slider>
               </div>
             </OpacityAnimation>
-            <div className="pb-6 pt-16">
+            <div className="pb-6 pt-6">
               <OpacityAnimation>
                 <Titulo styles="text-[#FFBD59] text-center">
                   ESTANDO YA EN RUSIA ¿NO SABES DONDE VAS A VIVIR?
                 </Titulo>
-                <div className="mb-16">
-                  <p className="text-lg font-bold text-white sm:text-xl m-0 mt-3">
+                <div className="mb-6">
+                  <p className="text-lg text-white sm:text-xl m-0 mt-3">
                     En <span className="font-extrabold">ZDOROVO</span> te
                     brindamos dos opciones:
                   </p>
                   <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
                     <li>RESIDENCIA ESTUDIANTIL</li>
-                    <li>DEPARTAMENTOS PRIVADOS</li>
                   </ul>
-                  <Parrafo styles="hyphens-auto text-white text-justify">
+                  <Parrafo styles="text-white">
                     Ellos ya están viviendo la experiencia de pertenecer a la
                     comunidad latina de más rápido crecimiento en Rusia con
-                    ZDOROVO y{" "}
-                    <span className="font-bold">TÚ VAS SER EL PRÓXIMO.</span>
+                    ZDOROVO y tú,{" "}
+                    <span className="font-extrabold text-[#FFBD59]">
+                      ¿VAS SER EL PRÓXIMO?
+                    </span>
                   </Parrafo>
                 </div>
               </OpacityAnimation>
@@ -394,45 +439,52 @@ export default function Home() {
           </div>
           <div className="w-[90%] mx-auto pb-10">
             <OpacityAnimation>
-              <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-3">
+              <Slider {...settings2}>
                 {banderas.map((item, index) => (
                   <div key={index}>
-                    <div>
-                      <YoutubeEmbedVertical embedId={item.video} />
-                    </div>
-                    <div key={index} className="h-10 mt-4 mb-1">
-                      <Image
-                        src={item.image}
-                        width={500}
-                        height={500}
-                        className="w-full h-full object-contain"
-                      />
+                    <div className="p-[13px]">
+                      <div className="h-[487px] mx-auto border-2 border-[#FFBD59] w-[273px] overflow-hidden">
+                        <WistiaVertical videoId={item.video} wrapper={`wistia-player-container-${index + 2}`} />
+                      </div>
+                      <div key={index} className="h-10 mt-4 mb-1">
+                        <Image
+                          src={item.image}
+                          width={70}
+                          alt={item.name}
+                          height={40}
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
                     </div>
                   </div>
                 ))}
-              </div>
+              </Slider>
             </OpacityAnimation>
 
-            <div className="w-full text-center mt-8">
-              <div className="h-[2px] bg-[#FFBD59] w-full"></div>
+            <div className="w-full text-center mt-6">
+              <div className="h-[2px] bg-[#FFBD59] w-full mb-10"></div>
               <OpacityAnimation>
-                <button className="px-6 py-2 mt-6 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg">
+                <Link
+                  href="https://calendly.com/d/4mn-35b-pqh"
+                  target="_blank"
+                  className="px-6 py-2 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg"
+                >
                   Quiero ser el proximo en Rusia
-                </button>
+                </Link>
               </OpacityAnimation>
             </div>
           </div>
         </div>
       </main>
 
-      <footer className="bg-[#004091] bg-[url('/bottonN.png')] bg-cover bg-no-repeat bg-center h-96">
+      <footer className="bg-[#004091] bg-[url('/bottonN.webp')] bg-cover bg-no-repeat bg-center h-96">
         <div className="flex items-center justify-center h-full">
-          <div className="sm:h-20 h-16 mt-24">
+          <div className="sm:h-20 h-6 mt-24">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="Logo ZDOROVO"
-              width="800"
-              height="800"
+              width={297.53}
+              height={80}
               className="w-full h-full object-contain"
             />
           </div>

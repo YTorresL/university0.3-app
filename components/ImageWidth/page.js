@@ -3,12 +3,12 @@ import Image from "next/image"
 export default function ImageWidth({ src }) {
   return (
     <div>
-      <div className="sm:w-96 w-full h-60">
+      <div className="lg:w-[710px] sm:h-96 w-full h-60">
         <Image
           src={src}
           alt="Estudia en Rusia"
-          width={1000}
-          height={1000}
+          width={710}
+          height={384}
           className="object-cover w-full h-full"
         />
       </div>
