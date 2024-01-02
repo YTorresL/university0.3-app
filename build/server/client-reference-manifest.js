@@ -985,15 +985,15 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\app\\layout": [
-      "static/css/app/layout.css"
-    ],
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\app\\page": [
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\app\\page": [
       "static/css/app/page.css"
+    ],
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\app\\layout": [
+      "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1001,7 +1001,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1009,7 +1009,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1017,7 +1017,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1025,7 +1025,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1033,7 +1033,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1041,7 +1041,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1049,7 +1049,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1057,7 +1057,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1065,7 +1065,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1073,7 +1073,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1081,7 +1081,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1089,7 +1089,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1097,7 +1097,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1105,7 +1105,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1113,7 +1113,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1121,7 +1121,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1129,7 +1129,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1137,7 +1137,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1145,7 +1145,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1153,7 +1153,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1161,7 +1161,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1169,7 +1169,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1177,7 +1177,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1185,7 +1185,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1193,7 +1193,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1201,7 +1201,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1209,7 +1209,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1217,7 +1217,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1225,7 +1225,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1233,7 +1233,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1241,7 +1241,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1249,7 +1249,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1257,7 +1257,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1265,7 +1265,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1273,7 +1273,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1281,7 +1281,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1289,7 +1289,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1297,7 +1297,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1305,7 +1305,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1313,7 +1313,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1321,7 +1321,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1329,7 +1329,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1337,7 +1337,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1345,7 +1345,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1353,7 +1353,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1361,7 +1361,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1369,7 +1369,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1377,7 +1377,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1385,7 +1385,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1393,7 +1393,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1401,7 +1401,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1409,7 +1409,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1417,7 +1417,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1425,7 +1425,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1433,7 +1433,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1441,7 +1441,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1449,7 +1449,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1457,7 +1457,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1465,7 +1465,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1473,7 +1473,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1481,7 +1481,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1489,7 +1489,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1497,7 +1497,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1505,7 +1505,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1513,7 +1513,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1521,7 +1521,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1529,7 +1529,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1537,7 +1537,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1545,7 +1545,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1553,7 +1553,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1561,7 +1561,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1569,7 +1569,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1577,7 +1577,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1585,7 +1585,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1593,7 +1593,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1601,7 +1601,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1609,7 +1609,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1617,7 +1617,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1625,7 +1625,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1633,15 +1633,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "childNodes",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1649,7 +1641,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "childNodes",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1657,7 +1657,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1665,7 +1665,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1673,7 +1673,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1681,7 +1681,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1689,7 +1689,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1697,7 +1697,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1705,7 +1705,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1713,7 +1713,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1721,7 +1721,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1729,7 +1729,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1737,7 +1737,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1745,7 +1745,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1753,7 +1753,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1761,7 +1761,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1769,7 +1769,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1777,7 +1777,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1785,7 +1785,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1793,7 +1793,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1801,7 +1801,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1809,7 +1809,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -1817,7 +1817,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -1825,7 +1825,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -1833,7 +1833,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -1841,7 +1841,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -1849,7 +1849,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -1857,7 +1857,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -1865,7 +1865,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -1873,7 +1873,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -1881,7 +1881,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -1889,7 +1889,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -1897,7 +1897,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -1905,7 +1905,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -1913,7 +1913,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -1921,7 +1921,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -1929,7 +1929,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -1937,7 +1937,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -1945,7 +1945,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -1953,7 +1953,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -1961,7 +1961,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -1969,7 +1969,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -1977,7 +1977,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -1985,7 +1985,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -1993,7 +1993,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2001,7 +2001,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#previousPathname": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#previousPathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "previousPathname",
       "chunks": [
@@ -2009,7 +2009,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#previousPathname": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#previousPathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "previousPathname",
       "chunks": [
@@ -2017,7 +2017,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2025,7 +2025,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2033,7 +2033,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2041,7 +2041,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2049,7 +2049,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2057,7 +2057,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2065,7 +2065,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#pathname": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "pathname",
       "chunks": [
@@ -2073,7 +2073,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#pathname": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "pathname",
       "chunks": [
@@ -2081,7 +2081,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2089,7 +2089,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2097,7 +2097,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2105,7 +2105,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2113,7 +2113,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2121,7 +2121,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2129,7 +2129,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2137,7 +2137,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2145,7 +2145,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2153,7 +2153,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2161,7 +2161,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2169,7 +2169,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2177,15 +2177,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2193,7 +2185,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2201,7 +2201,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2209,7 +2209,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2217,7 +2217,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2225,7 +2225,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2233,7 +2233,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2241,7 +2241,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2249,7 +2249,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2257,7 +2257,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2265,7 +2265,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2273,7 +2273,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2281,7 +2281,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2289,7 +2289,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2297,7 +2297,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2305,7 +2305,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2313,7 +2313,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2321,7 +2321,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2329,7 +2329,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2337,7 +2337,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2345,7 +2345,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2353,7 +2353,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2361,7 +2361,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2369,7 +2369,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2377,7 +2377,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2385,7 +2385,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2393,7 +2393,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2401,7 +2401,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2409,7 +2409,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2417,7 +2417,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2425,7 +2425,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2433,7 +2433,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2441,7 +2441,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2449,7 +2449,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2457,7 +2457,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2465,7 +2465,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2473,7 +2473,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2481,15 +2481,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -2497,7 +2489,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2505,7 +2505,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2513,7 +2513,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2521,7 +2521,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2529,7 +2529,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2537,7 +2537,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2545,15 +2545,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -2561,7 +2553,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2569,7 +2569,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2577,7 +2577,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2585,7 +2585,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2593,7 +2593,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2601,7 +2601,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2609,7 +2609,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2617,7 +2617,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2625,7 +2625,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2633,7 +2633,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2641,7 +2641,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2649,7 +2649,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2657,7 +2657,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2665,7 +2665,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2673,7 +2673,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2681,7 +2681,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2689,7 +2689,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2697,7 +2697,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2705,7 +2705,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2713,7 +2713,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2721,35 +2721,21 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\normalize.css\\normalize.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\slick-carousel\\slick\\slick-theme.css#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\slick-carousel\\slick\\slick-theme.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\slick-carousel\\slick\\slick.css#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\slick-carousel\\slick\\slick.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\app\\page.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\app\\page.js": {
       "id": "(app-client)/./app/page.js",
       "name": "*",
       "chunks": [
@@ -2757,7 +2743,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\app\\page.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\app\\page.js#": {
       "id": "(app-client)/./app/page.js",
       "name": "",
       "chunks": [
@@ -2765,7 +2751,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\app\\page.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\app\\page.js#default": {
       "id": "(app-client)/./app/page.js",
       "name": "default",
       "chunks": [
@@ -2773,7 +2759,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\image.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -2781,7 +2767,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -2789,7 +2775,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\image.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -2797,7 +2783,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -2805,7 +2791,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\image.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -2813,7 +2799,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -2821,7 +2807,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\link.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -2829,7 +2815,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -2837,7 +2823,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\link.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -2845,7 +2831,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -2853,7 +2839,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\link.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -2861,7 +2847,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -2869,7 +2855,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -2877,7 +2863,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -2885,7 +2871,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -2893,7 +2879,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -2901,7 +2887,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -2909,7 +2895,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -2917,7 +2903,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -2925,7 +2911,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -2933,7 +2919,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
@@ -2941,7 +2927,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "charSet",
       "chunks": [
@@ -2949,7 +2935,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
@@ -2957,7 +2943,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "name",
       "chunks": [
@@ -2965,7 +2951,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
@@ -2973,7 +2959,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "content",
       "chunks": [
@@ -2981,7 +2967,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
@@ -2989,7 +2975,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"title\"",
       "chunks": [
@@ -2997,7 +2983,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
@@ -3005,7 +2991,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"base\"",
       "chunks": [
@@ -3013,7 +2999,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
@@ -3021,7 +3007,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"meta\"",
       "chunks": [
@@ -3029,7 +3015,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
@@ -3037,7 +3023,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "TODO(prateekbh@)",
       "chunks": [
@@ -3045,7 +3031,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
@@ -3053,7 +3039,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "\"https",
       "chunks": [
@@ -3061,7 +3047,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
@@ -3069,7 +3055,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "here",
       "chunks": [
@@ -3077,7 +3063,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
@@ -3085,7 +3071,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "https",
       "chunks": [
@@ -3093,7 +3079,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
@@ -3101,7 +3087,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "reduceComponentsToState",
       "chunks": [
@@ -3109,7 +3095,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
@@ -3117,7 +3103,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "headManager",
       "chunks": [
@@ -3125,7 +3111,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
@@ -3133,7 +3119,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "inAmpMode",
       "chunks": [
@@ -3141,7 +3127,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
@@ -3149,13 +3135,27 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\yalit\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\yalit\\OneDrive\\Desktop\\YTorres\\university0.3-app\\node_modules\\normalize.css\\normalize.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }

@@ -471,39 +471,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.container {
-  width: 100%;
-}
-@media (min-width: 640px) {
-
-  .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-
-  .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-
-  .container {
-    max-width: 1536px;
-  }
-}
 .m-0 {
   margin: 0px;
 }
@@ -518,6 +485,10 @@ video {
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .my-8 {
   margin-top: 2rem;
@@ -562,8 +533,8 @@ video {
 .h-10 {
   height: 2.5rem;
 }
-.h-6 {
-  height: 1.5rem;
+.h-16 {
+  height: 4rem;
 }
 .h-60 {
   height: 15rem;
@@ -580,20 +551,11 @@ video {
 .h-\[45rem\] {
   height: 45rem;
 }
-.h-\[487px\] {
-  height: 487px;
+.h-\[482px\] {
+  height: 482px;
 }
 .h-full {
   height: 100%;
-}
-.h-\[485px\] {
-  height: 485px;
-}
-.h-\[483px\] {
-  height: 483px;
-}
-.h-\[482px\] {
-  height: 482px;
 }
 .w-24 {
   width: 6rem;
@@ -657,6 +619,10 @@ video {
 .bg-\[\#FFBD59\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 189 89 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/bottonN\.webp\'\)\] {
   background-image: url('/bottonN.webp');
@@ -880,7 +846,6 @@ video {
     width: 75%;
   }
 }
-
 /*!************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/normalize.css/normalize.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************************/

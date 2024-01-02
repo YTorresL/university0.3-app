@@ -44,6 +44,12 @@ const slider1 = [
   {
     image: "/universidad2.jpg",
   },
+  {
+    image: "/universidad3.jpg",
+  },
+  {
+    image: "/universidad4.jpg",
+  },
 ]
 const slider2 = [
   {
@@ -69,6 +75,9 @@ const slider2 = [
   },
   {
     image: "/experiencias8.jpg",
+  },
+  {
+    image: "/experiencias9.jpg",
   },
 ]
 const banderas = [
@@ -120,7 +129,10 @@ export default function Home() {
     infinite: true,
     speed: 3000,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
     initialSlide: 0,
     appendDots: (dots) => (
       <div
@@ -138,7 +150,7 @@ export default function Home() {
         breakpoint: 1284,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -147,7 +159,7 @@ export default function Home() {
         breakpoint: 964,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -245,7 +257,7 @@ export default function Home() {
                   <OpacityAnimation>
                     <Parrafo styles="text-white text-center">
                       <span className="font-extrabold text-[#FFBD59]">
-                        Quieres estudiar en Rusia y no sabes como hacerlo.
+                        ¿Quieres estudiar en Rusia y no sabes cómo hacerlo?
                       </span>{" "}
                       Si llegaste hasta aquí, “es porque seguramente quieres dar
                       ese gran paso y{" "}
@@ -272,13 +284,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+
             <div>
               <div className="py-5">
                 <div>
                   <OpacityAnimation>
+                  <div className="bg-white w-full py-2">
                     <Titulo styles="text-[#FFBD59] uppercase text-center">
                       ¿Te preocupa el idioma?
                     </Titulo>
+                    </div>
+                    <div className="md:w-[70%] w-[90%] mx-auto">
                     <Parrafo styles="text-white text-center">
                       <span className="font-extrabold text-[#FFBD59]">
                         Quiero serte sincero
@@ -315,6 +332,7 @@ export default function Home() {
                       </span>
                       , no te querrás ir.
                     </Parrafo>
+                    </div>
                   </OpacityAnimation>
                 </div>
               </div>
@@ -323,10 +341,15 @@ export default function Home() {
               <div className="py-5">
                 <div>
                   <OpacityAnimation>
+                  <div className="bg-white w-full py-2">
+                  <div className="md:w-[70%] w-[90%] mx-auto">
                     <Titulo styles="text-[#FFBD59] uppercase text-center">
                       ¿DIME CUÁL CARRERA DESEAS ESTUDIAR? Y BUSCAREMOS PARA TI
                       LAS MEJORES UNIVERSIDADES A TU DISPOSICIÓN
                     </Titulo>
+                    </div>
+                    </div>
+                    <div className="md:w-[70%] w-[90%] mx-auto">
                     <Parrafo styles="text-white text-center">
                       <span className="font-extrabold text-[#FFBD59]">
                         Yo entiendo todo el lío que conlleva buscar que
@@ -344,30 +367,35 @@ export default function Home() {
                         cupo.
                       </span>
                     </Parrafo>
+                    </div>
                   </OpacityAnimation>
                 </div>
               </div>
             </div>
             <OpacityAnimation>
-              <div className="h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
+              <div className="my-8 h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
                 <Slider {...settings}>
                   {slider1.map((item, index) => (
                     <ImageWidth src={item.image} key={index} />
                   ))}
                 </Slider>
               </div>
-            </OpacityAnimation>
+            </OpacityAnimation>        
             <div className="py-5">
               <OpacityAnimation>
-                <Titulo styles="text-[#FFBD59] text-center md:w-[75%] mx-auto">
+                <div className="bg-white w-full py-2">
+                <div className="md:w-[70%] w-[90%] mx-auto">
+                  <Titulo styles="text-[#FFBD59] text-center md:w-[75%] mx-auto">
                   PASO A PASO DESDE QUE ESTAS EN TU PAÍS HASTA QUE LLEGAS A
                   RUSIA
-                </Titulo>
+                  </Titulo>
+                  </div>
+                </div>   
               </OpacityAnimation>
-
               <div className="flex flex-col items-center justify-center md:flex-row">
                 <div className="w-full">
                   <div className="mt-6">
+                  <div className="md:w-[70%] w-[90%] mx-auto">
                     <OpacityAnimation>
                       {proceso.map((item, index) => (
                         <div className="flex my-3 leading-6" key={index}>
@@ -396,14 +424,15 @@ export default function Home() {
                         </div>
                       ))}
                     </OpacityAnimation>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+
           <div className="md:w-[70%] w-[90%] mx-auto">
             <OpacityAnimation>
-              <div className="h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
+              <div className="my-6 h-60 sm:h-96 overflow-hidden w-full lg:w-[710px] mx-auto border-2 border-[#FFBD59]">
                 <Slider {...settings}>
                   {slider2.map((item, index) => (
                     <ImageWidth src={item.image} key={index} />
@@ -423,6 +452,7 @@ export default function Home() {
                   </p>
                   <ul className="list-disc list-inside text-lg font-bold text-[#FFBD59] sm:text-xl m-0 mt-3">
                     <li>RESIDENCIA ESTUDIANTIL</li>
+                    <li>DEPARTAMENTOS PRIVADOS</li>
                   </ul>
                   <Parrafo styles="text-white">
                     Ellos ya están viviendo la experiencia de pertenecer a la
@@ -436,7 +466,7 @@ export default function Home() {
               </OpacityAnimation>
             </div>
           </div>
-          <div className="w-[90%] mx-auto pb-10">
+          <div className="w-[90%] mx-auto pb-10 overflow-hidden">
             <OpacityAnimation>
               <Slider {...settings2}>
                 {banderas.map((item, index) => (
@@ -473,7 +503,7 @@ export default function Home() {
               <div className="h-[2px] bg-[#FFBD59] w-full mb-10"></div>
               <OpacityAnimation>
                 <Link
-                  href="https://calendly.com/d/4mn-35b-pqh"
+                  href="https://calendly.com/zdorovo-dileholaarusia/sesion-de-claridad"
                   target="_blank"
                   className="px-6 py-2 text-white text-lg bg-[#FFBD59] font-bold uppercase hover:bg-[#FFBD59] transition duration-500 ease-in-out rounded-lg"
                 >
@@ -487,7 +517,7 @@ export default function Home() {
 
       <footer className="bg-[#004091] bg-[url('/bottonN.webp')] bg-cover bg-no-repeat bg-center h-96">
         <div className="flex items-center justify-center h-full">
-          <div className="sm:h-20 h-6 mt-24">
+          <div className="sm:h-20 h-16 mt-24">
             <Image
               src="/logo.webp"
               alt="Logo ZDOROVO"
